@@ -1,13 +1,13 @@
 {
     "version": "1.0.0",
-    "sha256": "5E870A245607A76B5A692FC536BB30B47A17B0AC345A85464B982D64D460E494",
-    "updatedAt": "2026-09-21T11:17:12.686Z",
+    "sha256": "3B547DF28E88236A13D38A13812039C49E41DA776B26C31771B701EE1069D443",
+    "updatedAt": "2026-09-21T12:04:40.026Z",
     "bundleUrl": "hotupdate_bundle.zip",
     "nativeVersionCode": 10000,
     "nativeVersionName": "1.0.0",
     "minNativeVersionCode": 10000,
     "apkUrl": "https://raw.githubusercontent.com/AlwaysBusyLzc/cdn/lol_cool/taro/prod/1.0.0/LolCool-Taro.apk",
     "updateTitle": "发现新版本客户端",
-    "updateLog": "1. 修复全英雄技能数值公式与加点收益\n2. 修复冷却与消耗胶囊文字居中排版\n3. 优化移动端热更新体验",
+    "updateLog": "1. 设置面板主题外观与语言排版全面升级优化\n2. 英雄列表升级为5列紧凑网格布局\n3. 全面优化移动端浏览体验",
     "forceUpdate": false
 }
