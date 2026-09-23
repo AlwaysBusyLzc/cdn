@@ -8,7 +8,7 @@
       "key": "66",
       "name": "Kindred",
       "title": "千珏",
-      "blurb": "永猎双子 千珏，峡谷经典竞技英雄，擅长于JUNGLE/BOTTOM作战。",
+      "blurb": "永猎双子 千珏，峡谷经典竞技英雄，擅长于JUNGLE作战。",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -30,8 +30,7 @@
       ],
       "partype": "法力",
       "lanes": [
-        "JUNGLE",
-        "BOTTOM"
+        "JUNGLE"
       ],
       "stats": {
         "hp": 600,
@@ -55,7 +54,7 @@
         "attackspeedperlevel": 2.5,
         "attackspeed": 0.658
       },
-      "lore": "永猎双子 千珏，峡谷经典竞技英雄，擅长于JUNGLE/BOTTOM作战。",
+      "lore": "永猎双子 千珏，峡谷经典竞技英雄，擅长于JUNGLE作战。",
       "passive": {
         "name": "固有被动能力",
         "description": "永猎双子 拥有专属被动战斗机制。",

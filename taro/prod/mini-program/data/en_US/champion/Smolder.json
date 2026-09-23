@@ -8,7 +8,7 @@
       "key": "128",
       "name": "Smolder",
       "title": "斯莫德",
-      "blurb": "炽炎雏龙 斯莫德，峡谷经典竞技英雄，擅长于BOTTOM/MID/TOP作战。",
+      "blurb": "炽炎雏龙 斯莫德，峡谷经典竞技英雄，擅长于BOTTOM/MID作战。",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -30,8 +30,7 @@
       "partype": "法力",
       "lanes": [
         "BOTTOM",
-        "MID",
-        "TOP"
+        "MID"
       ],
       "stats": {
         "hp": 600,
@@ -55,7 +54,7 @@
         "attackspeedperlevel": 2.5,
         "attackspeed": 0.658
       },
-      "lore": "炽炎雏龙 斯莫德，峡谷经典竞技英雄，擅长于BOTTOM/MID/TOP作战。",
+      "lore": "炽炎雏龙 斯莫德，峡谷经典竞技英雄，擅长于BOTTOM/MID作战。",
       "passive": {
         "name": "固有被动能力",
         "description": "炽炎雏龙 拥有专属被动战斗机制。",

@@ -1,8 +1,16 @@
 {
     "version": "16.18.1",
+    "configVersion": "2026.09.23",
     "appPlatform": "mini-program",
     "totalChampions": 173,
     "totalItems": 575,
-    "updatedAt": "2026-09-23T05:21:28.695Z",
-    "updateLog": "1. 微信小程序 173 英雄全量数据与 575 件官方全模式装备完整同步\n2. 包含全部英雄高清圆形头像、技能/真实被动图标与全量装备高清图\n3. 支持全离线极速秒开与 CDN 动态分发"
+    "updatedAt": "2026-09-23T12:09:18.477Z",
+    "updateLog": "1. 微信小程序 173 英雄全量数据与 575 件官方全模式装备完整同步\n2. 包含全部英雄高清圆形头像、技能/真实被动图标与全量装备高清图\n3. 全量英雄外号、克制知识库、技能公式与版本资讯免审热更包完整导出\n4. 支持全离线极速秒开与 CDN 动态分发",
+    "configs": {
+        "champion_nicknames": "champion_nicknames.json",
+        "champion_counters": "champion_counters.json",
+        "spell_formulas": "spell_formulas.json",
+        "hero_lanes": "hero_lanes.json",
+        "patch_notes": "patch_notes.json"
+    }
 }

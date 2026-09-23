@@ -8,7 +8,7 @@
       "key": "119",
       "name": "Seraphine",
       "title": "萨勒芬妮",
-      "blurb": "星籁歌姬 萨勒芬妮，峡谷经典竞技英雄，擅长于SUPPORT/BOTTOM/MID作战。",
+      "blurb": "星籁歌姬 萨勒芬妮，峡谷经典竞技英雄，擅长于SUPPORT/MID/BOTTOM作战。",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -31,8 +31,8 @@
       "partype": "法力",
       "lanes": [
         "SUPPORT",
-        "BOTTOM",
-        "MID"
+        "MID",
+        "BOTTOM"
       ],
       "stats": {
         "hp": 600,
@@ -56,7 +56,7 @@
         "attackspeedperlevel": 2.5,
         "attackspeed": 0.658
       },
-      "lore": "星籁歌姬 萨勒芬妮，峡谷经典竞技英雄，擅长于SUPPORT/BOTTOM/MID作战。",
+      "lore": "星籁歌姬 萨勒芬妮，峡谷经典竞技英雄，擅长于SUPPORT/MID/BOTTOM作战。",
       "passive": {
         "name": "固有被动能力",
         "description": "星籁歌姬 拥有专属被动战斗机制。",

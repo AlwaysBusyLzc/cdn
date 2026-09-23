@@ -3420,7 +3420,7 @@
       "key": "66",
       "name": "Kindred",
       "title": "The Champion (JUNGLE)",
-      "blurb": "Kindred is a champion that specializes in JUNGLE/BOTTOM.",
+      "blurb": "Kindred is a champion that specializes in JUNGLE.",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -3442,8 +3442,7 @@
       ],
       "partype": "法力",
       "lanes": [
-        "JUNGLE",
-        "BOTTOM"
+        "JUNGLE"
       ],
       "stats": {
         "hp": 600,
@@ -3577,7 +3576,7 @@
       "key": "69",
       "name": "KSante",
       "title": "The Champion (TOP)",
-      "blurb": "KSante is a champion that specializes in TOP/MID.",
+      "blurb": "KSante is a champion that specializes in TOP.",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -3599,8 +3598,7 @@
       ],
       "partype": "法力",
       "lanes": [
-        "TOP",
-        "MID"
+        "TOP"
       ],
       "stats": {
         "hp": 600,
@@ -3891,7 +3889,7 @@
       "key": "75",
       "name": "Locke",
       "title": "The Champion (MID)",
-      "blurb": "Locke is a champion that specializes in MID.",
+      "blurb": "Locke is a champion that specializes in MID/TOP.",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -3913,7 +3911,8 @@
       ],
       "partype": "法力",
       "lanes": [
-        "MID"
+        "MID",
+        "TOP"
       ],
       "stats": {
         "hp": 600,
@@ -4206,7 +4205,7 @@
       "key": "81",
       "name": "Maokai",
       "title": "The Champion (SUPPORT)",
-      "blurb": "Maokai is a champion that specializes in SUPPORT/JUNGLE/TOP.",
+      "blurb": "Maokai is a champion that specializes in SUPPORT/TOP/JUNGLE.",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -4229,8 +4228,8 @@
       "partype": "法力",
       "lanes": [
         "SUPPORT",
-        "JUNGLE",
-        "TOP"
+        "TOP",
+        "JUNGLE"
       ],
       "stats": {
         "hp": 600,
@@ -4417,7 +4416,7 @@
       "key": "85",
       "name": "MissFortune",
       "title": "The Champion (BOTTOM)",
-      "blurb": "MissFortune is a champion that specializes in BOTTOM.",
+      "blurb": "MissFortune is a champion that specializes in BOTTOM/SUPPORT.",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -4438,7 +4437,8 @@
       ],
       "partype": "法力",
       "lanes": [
-        "BOTTOM"
+        "BOTTOM",
+        "SUPPORT"
       ],
       "stats": {
         "hp": 600,
@@ -4467,8 +4467,8 @@
       "id": "MonkeyKing",
       "key": "86",
       "name": "MonkeyKing",
-      "title": "The Champion (JUNGLE)",
-      "blurb": "MonkeyKing is a champion that specializes in JUNGLE/TOP.",
+      "title": "The Champion (TOP)",
+      "blurb": "MonkeyKing is a champion that specializes in TOP/JUNGLE.",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -4477,59 +4477,6 @@
       },
       "image": {
         "full": "MonkeyKing.png",
-        "sprite": "champion0.png",
-        "group": "champion",
-        "x": 0,
-        "y": 0,
-        "w": 48,
-        "h": 48
-      },
-      "tags": [
-        "Assassin",
-        "Fighter"
-      ],
-      "partype": "法力",
-      "lanes": [
-        "JUNGLE",
-        "TOP"
-      ],
-      "stats": {
-        "hp": 600,
-        "hpperlevel": 100,
-        "mp": 350,
-        "mpperlevel": 30,
-        "movespeed": 335,
-        "armor": 30,
-        "armorperlevel": 4.5,
-        "spellblock": 30,
-        "spellblockperlevel": 1.5,
-        "attackrange": 175,
-        "hpregen": 6,
-        "hpregenperlevel": 0.75,
-        "mpregen": 7,
-        "mpregenperlevel": 0.7,
-        "crit": 0,
-        "critperlevel": 0,
-        "attackdamage": 60,
-        "attackdamageperlevel": 3.5,
-        "attackspeedperlevel": 2.5,
-        "attackspeed": 0.658
-      }
-    },
-    "Mordekaiser": {
-      "id": "Mordekaiser",
-      "key": "87",
-      "name": "Mordekaiser",
-      "title": "The Champion (TOP)",
-      "blurb": "Mordekaiser is a champion that specializes in TOP/JUNGLE.",
-      "info": {
-        "attack": 6,
-        "defense": 5,
-        "magic": 5,
-        "difficulty": 5
-      },
-      "image": {
-        "full": "Mordekaiser.png",
         "sprite": "champion0.png",
         "group": "champion",
         "x": 0,
@@ -4569,12 +4516,65 @@
         "attackspeed": 0.658
       }
     },
+    "Mordekaiser": {
+      "id": "Mordekaiser",
+      "key": "87",
+      "name": "Mordekaiser",
+      "title": "The Champion (TOP)",
+      "blurb": "Mordekaiser is a champion that specializes in TOP/MID.",
+      "info": {
+        "attack": 6,
+        "defense": 5,
+        "magic": 5,
+        "difficulty": 5
+      },
+      "image": {
+        "full": "Mordekaiser.png",
+        "sprite": "champion0.png",
+        "group": "champion",
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      },
+      "tags": [
+        "Fighter",
+        "Tank"
+      ],
+      "partype": "法力",
+      "lanes": [
+        "TOP",
+        "MID"
+      ],
+      "stats": {
+        "hp": 600,
+        "hpperlevel": 100,
+        "mp": 350,
+        "mpperlevel": 30,
+        "movespeed": 335,
+        "armor": 30,
+        "armorperlevel": 4.5,
+        "spellblock": 30,
+        "spellblockperlevel": 1.5,
+        "attackrange": 175,
+        "hpregen": 6,
+        "hpregenperlevel": 0.75,
+        "mpregen": 7,
+        "mpregenperlevel": 0.7,
+        "crit": 0,
+        "critperlevel": 0,
+        "attackdamage": 60,
+        "attackdamageperlevel": 3.5,
+        "attackspeedperlevel": 2.5,
+        "attackspeed": 0.658
+      }
+    },
     "Morgana": {
       "id": "Morgana",
       "key": "88",
       "name": "Morgana",
       "title": "The Champion (SUPPORT)",
-      "blurb": "Morgana is a champion that specializes in SUPPORT/JUNGLE/MID.",
+      "blurb": "Morgana is a champion that specializes in SUPPORT/MID/JUNGLE.",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -4597,8 +4597,8 @@
       "partype": "法力",
       "lanes": [
         "SUPPORT",
-        "JUNGLE",
-        "MID"
+        "MID",
+        "JUNGLE"
       ],
       "stats": {
         "hp": 600,
@@ -4628,7 +4628,7 @@
       "key": "89",
       "name": "Naafiri",
       "title": "The Champion (MID)",
-      "blurb": "Naafiri is a champion that specializes in MID/JUNGLE.",
+      "blurb": "Naafiri is a champion that specializes in MID/TOP.",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -4651,7 +4651,7 @@
       "partype": "法力",
       "lanes": [
         "MID",
-        "JUNGLE"
+        "TOP"
       ],
       "stats": {
         "hp": 600,
@@ -4733,7 +4733,7 @@
       "key": "91",
       "name": "Nasus",
       "title": "The Champion (TOP)",
-      "blurb": "Nasus is a champion that specializes in TOP.",
+      "blurb": "Nasus is a champion that specializes in TOP/MID.",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -4755,7 +4755,8 @@
       ],
       "partype": "法力",
       "lanes": [
-        "TOP"
+        "TOP",
+        "MID"
       ],
       "stats": {
         "hp": 600,
@@ -4785,7 +4786,7 @@
       "key": "92",
       "name": "Nautilus",
       "title": "The Champion (SUPPORT)",
-      "blurb": "Nautilus is a champion that specializes in SUPPORT.",
+      "blurb": "Nautilus is a champion that specializes in SUPPORT/JUNGLE.",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -4807,7 +4808,8 @@
       ],
       "partype": "法力",
       "lanes": [
-        "SUPPORT"
+        "SUPPORT",
+        "JUNGLE"
       ],
       "stats": {
         "hp": 600,
@@ -4993,7 +4995,7 @@
       "key": "96",
       "name": "Nocturne",
       "title": "The Champion (JUNGLE)",
-      "blurb": "Nocturne is a champion that specializes in JUNGLE.",
+      "blurb": "Nocturne is a champion that specializes in JUNGLE/MID.",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -5015,7 +5017,8 @@
       ],
       "partype": "法力",
       "lanes": [
-        "JUNGLE"
+        "JUNGLE",
+        "MID"
       ],
       "stats": {
         "hp": 600,
@@ -5045,7 +5048,7 @@
       "key": "97",
       "name": "Nunu",
       "title": "The Champion (JUNGLE)",
-      "blurb": "Nunu is a champion that specializes in JUNGLE.",
+      "blurb": "Nunu is a champion that specializes in JUNGLE/MID.",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -5067,7 +5070,8 @@
       ],
       "partype": "法力",
       "lanes": [
-        "JUNGLE"
+        "JUNGLE",
+        "MID"
       ],
       "stats": {
         "hp": 600,
@@ -5202,7 +5206,7 @@
       "key": "100",
       "name": "Ornn",
       "title": "The Champion (TOP)",
-      "blurb": "Ornn is a champion that specializes in TOP.",
+      "blurb": "Ornn is a champion that specializes in TOP/SUPPORT.",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -5224,7 +5228,8 @@
       ],
       "partype": "法力",
       "lanes": [
-        "TOP"
+        "TOP",
+        "SUPPORT"
       ],
       "stats": {
         "hp": 600,
@@ -5253,8 +5258,8 @@
       "id": "Pantheon",
       "key": "101",
       "name": "Pantheon",
-      "title": "The Champion (TOP)",
-      "blurb": "Pantheon is a champion that specializes in TOP/MID/SUPPORT.",
+      "title": "The Champion (SUPPORT)",
+      "blurb": "Pantheon is a champion that specializes in SUPPORT/MID/TOP.",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -5271,14 +5276,14 @@
         "h": 48
       },
       "tags": [
-        "Fighter",
+        "Support",
         "Tank"
       ],
       "partype": "法力",
       "lanes": [
-        "TOP",
+        "SUPPORT",
         "MID",
-        "SUPPORT"
+        "TOP"
       ],
       "stats": {
         "hp": 600,
@@ -5362,7 +5367,7 @@
       "key": "103",
       "name": "Pyke",
       "title": "The Champion (SUPPORT)",
-      "blurb": "Pyke is a champion that specializes in SUPPORT.",
+      "blurb": "Pyke is a champion that specializes in SUPPORT/MID.",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -5384,7 +5389,8 @@
       ],
       "partype": "法力",
       "lanes": [
-        "SUPPORT"
+        "SUPPORT",
+        "MID"
       ],
       "stats": {
         "hp": 600,
@@ -5467,7 +5473,7 @@
       "key": "105",
       "name": "Quinn",
       "title": "The Champion (TOP)",
-      "blurb": "Quinn is a champion that specializes in TOP.",
+      "blurb": "Quinn is a champion that specializes in TOP/MID.",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -5489,7 +5495,8 @@
       ],
       "partype": "法力",
       "lanes": [
-        "TOP"
+        "TOP",
+        "MID"
       ],
       "stats": {
         "hp": 600,
@@ -6204,7 +6211,7 @@
       "key": "119",
       "name": "Seraphine",
       "title": "The Champion (SUPPORT)",
-      "blurb": "Seraphine is a champion that specializes in SUPPORT/BOTTOM/MID.",
+      "blurb": "Seraphine is a champion that specializes in SUPPORT/MID/BOTTOM.",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -6227,8 +6234,8 @@
       "partype": "法力",
       "lanes": [
         "SUPPORT",
-        "BOTTOM",
-        "MID"
+        "MID",
+        "BOTTOM"
       ],
       "stats": {
         "hp": 600,
@@ -6258,7 +6265,7 @@
       "key": "120",
       "name": "Sett",
       "title": "The Champion (TOP)",
-      "blurb": "Sett is a champion that specializes in TOP/SUPPORT/MID.",
+      "blurb": "Sett is a champion that specializes in TOP/MID/SUPPORT.",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -6281,8 +6288,8 @@
       "partype": "法力",
       "lanes": [
         "TOP",
-        "SUPPORT",
-        "MID"
+        "MID",
+        "SUPPORT"
       ],
       "stats": {
         "hp": 600,
@@ -6681,7 +6688,7 @@
       "key": "128",
       "name": "Smolder",
       "title": "The Champion (BOTTOM)",
-      "blurb": "Smolder is a champion that specializes in BOTTOM/MID/TOP.",
+      "blurb": "Smolder is a champion that specializes in BOTTOM/MID.",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -6703,8 +6710,7 @@
       "partype": "法力",
       "lanes": [
         "BOTTOM",
-        "MID",
-        "TOP"
+        "MID"
       ],
       "stats": {
         "hp": 600,
@@ -6838,7 +6844,7 @@
       "key": "131",
       "name": "Swain",
       "title": "The Champion (SUPPORT)",
-      "blurb": "Swain is a champion that specializes in SUPPORT/MID/BOTTOM.",
+      "blurb": "Swain is a champion that specializes in SUPPORT/MID/TOP/BOTTOM.",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -6862,6 +6868,7 @@
       "lanes": [
         "SUPPORT",
         "MID",
+        "TOP",
         "BOTTOM"
       ],
       "stats": {
@@ -6892,7 +6899,7 @@
       "key": "132",
       "name": "Sylas",
       "title": "The Champion (MID)",
-      "blurb": "Sylas is a champion that specializes in MID/JUNGLE/TOP.",
+      "blurb": "Sylas is a champion that specializes in MID/TOP/JUNGLE.",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -6915,8 +6922,8 @@
       "partype": "法力",
       "lanes": [
         "MID",
-        "JUNGLE",
-        "TOP"
+        "TOP",
+        "JUNGLE"
       ],
       "stats": {
         "hp": 600,
@@ -6997,8 +7004,8 @@
       "id": "TahmKench",
       "key": "134",
       "name": "TahmKench",
-      "title": "The Champion (TOP)",
-      "blurb": "TahmKench is a champion that specializes in TOP/SUPPORT.",
+      "title": "The Champion (SUPPORT)",
+      "blurb": "TahmKench is a champion that specializes in SUPPORT/TOP.",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -7015,13 +7022,13 @@
         "h": 48
       },
       "tags": [
-        "Fighter",
+        "Support",
         "Tank"
       ],
       "partype": "法力",
       "lanes": [
-        "TOP",
-        "SUPPORT"
+        "SUPPORT",
+        "TOP"
       ],
       "stats": {
         "hp": 600,
@@ -7157,7 +7164,7 @@
       "key": "137",
       "name": "Taric",
       "title": "The Champion (SUPPORT)",
-      "blurb": "Taric is a champion that specializes in SUPPORT/JUNGLE.",
+      "blurb": "Taric is a champion that specializes in SUPPORT.",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -7179,8 +7186,7 @@
       ],
       "partype": "法力",
       "lanes": [
-        "SUPPORT",
-        "JUNGLE"
+        "SUPPORT"
       ],
       "stats": {
         "hp": 600,
@@ -7210,7 +7216,7 @@
       "key": "138",
       "name": "Teemo",
       "title": "The Champion (TOP)",
-      "blurb": "Teemo is a champion that specializes in TOP/SUPPORT.",
+      "blurb": "Teemo is a champion that specializes in TOP/MID/SUPPORT.",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -7233,6 +7239,7 @@
       "partype": "法力",
       "lanes": [
         "TOP",
+        "MID",
         "SUPPORT"
       ],
       "stats": {
@@ -7473,7 +7480,7 @@
       "key": "143",
       "name": "TwistedFate",
       "title": "The Champion (MID)",
-      "blurb": "TwistedFate is a champion that specializes in MID/TOP.",
+      "blurb": "TwistedFate is a champion that specializes in MID/BOTTOM.",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -7496,7 +7503,7 @@
       "partype": "法力",
       "lanes": [
         "MID",
-        "TOP"
+        "BOTTOM"
       ],
       "stats": {
         "hp": 600,
@@ -7526,7 +7533,7 @@
       "key": "144",
       "name": "Twitch",
       "title": "The Champion (BOTTOM)",
-      "blurb": "Twitch is a champion that specializes in BOTTOM.",
+      "blurb": "Twitch is a champion that specializes in BOTTOM/SUPPORT.",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -7547,7 +7554,8 @@
       ],
       "partype": "法力",
       "lanes": [
-        "BOTTOM"
+        "BOTTOM",
+        "SUPPORT"
       ],
       "stats": {
         "hp": 600,
@@ -7630,7 +7638,7 @@
       "key": "146",
       "name": "Urgot",
       "title": "The Champion (TOP)",
-      "blurb": "Urgot is a champion that specializes in TOP.",
+      "blurb": "Urgot is a champion that specializes in TOP/MID.",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -7652,7 +7660,8 @@
       ],
       "partype": "法力",
       "lanes": [
-        "TOP"
+        "TOP",
+        "MID"
       ],
       "stats": {
         "hp": 600,
@@ -7786,7 +7795,7 @@
       "key": "149",
       "name": "Veigar",
       "title": "The Champion (MID)",
-      "blurb": "Veigar is a champion that specializes in MID/BOTTOM.",
+      "blurb": "Veigar is a champion that specializes in MID/BOTTOM/SUPPORT.",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -7809,7 +7818,8 @@
       "partype": "法力",
       "lanes": [
         "MID",
-        "BOTTOM"
+        "BOTTOM",
+        "SUPPORT"
       ],
       "stats": {
         "hp": 600,
@@ -8364,7 +8374,7 @@
       "key": "160",
       "name": "XinZhao",
       "title": "The Champion (JUNGLE)",
-      "blurb": "XinZhao is a champion that specializes in JUNGLE.",
+      "blurb": "XinZhao is a champion that specializes in JUNGLE/TOP.",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -8386,7 +8396,8 @@
       ],
       "partype": "法力",
       "lanes": [
-        "JUNGLE"
+        "JUNGLE",
+        "TOP"
       ],
       "stats": {
         "hp": 600,
@@ -8523,7 +8534,7 @@
       "key": "163",
       "name": "Yorick",
       "title": "The Champion (TOP)",
-      "blurb": "Yorick is a champion that specializes in TOP.",
+      "blurb": "Yorick is a champion that specializes in TOP/MID.",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -8545,7 +8556,8 @@
       ],
       "partype": "法力",
       "lanes": [
-        "TOP"
+        "TOP",
+        "MID"
       ],
       "stats": {
         "hp": 600,
@@ -8574,8 +8586,8 @@
       "id": "Yunara",
       "key": "164",
       "name": "Yunara",
-      "title": "The Champion (BOTTOM)",
-      "blurb": "Yunara is a champion that specializes in BOTTOM.",
+      "title": "The Champion (MID)",
+      "blurb": "Yunara is a champion that specializes in MID/SUPPORT.",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -8592,11 +8604,13 @@
         "h": 48
       },
       "tags": [
-        "Marksman"
+        "Mage",
+        "Assassin"
       ],
       "partype": "法力",
       "lanes": [
-        "BOTTOM"
+        "MID",
+        "SUPPORT"
       ],
       "stats": {
         "hp": 600,
@@ -8608,7 +8622,7 @@
         "armorperlevel": 4.5,
         "spellblock": 30,
         "spellblockperlevel": 1.5,
-        "attackrange": 550,
+        "attackrange": 175,
         "hpregen": 6,
         "hpregenperlevel": 0.75,
         "mpregen": 7,
@@ -8678,7 +8692,7 @@
       "key": "166",
       "name": "Zaahen",
       "title": "The Champion (TOP)",
-      "blurb": "Zaahen is a champion that specializes in TOP/JUNGLE.",
+      "blurb": "Zaahen is a champion that specializes in TOP/MID.",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -8701,7 +8715,7 @@
       "partype": "法力",
       "lanes": [
         "TOP",
-        "JUNGLE"
+        "MID"
       ],
       "stats": {
         "hp": 600,

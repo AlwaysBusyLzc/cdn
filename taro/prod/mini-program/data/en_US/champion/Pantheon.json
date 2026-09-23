@@ -8,7 +8,7 @@
       "key": "101",
       "name": "Pantheon",
       "title": "潘森",
-      "blurb": "不屈之枪 潘森，峡谷经典竞技英雄，擅长于TOP/MID/SUPPORT作战。",
+      "blurb": "不屈之枪 潘森，峡谷经典竞技英雄，擅长于SUPPORT/MID/TOP作战。",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -25,14 +25,14 @@
         "h": 48
       },
       "tags": [
-        "Fighter",
+        "Support",
         "Tank"
       ],
       "partype": "法力",
       "lanes": [
-        "TOP",
+        "SUPPORT",
         "MID",
-        "SUPPORT"
+        "TOP"
       ],
       "stats": {
         "hp": 600,
@@ -56,7 +56,7 @@
         "attackspeedperlevel": 2.5,
         "attackspeed": 0.658
       },
-      "lore": "不屈之枪 潘森，峡谷经典竞技英雄，擅长于TOP/MID/SUPPORT作战。",
+      "lore": "不屈之枪 潘森，峡谷经典竞技英雄，擅长于SUPPORT/MID/TOP作战。",
       "passive": {
         "name": "固有被动能力",
         "description": "不屈之枪 拥有专属被动战斗机制。",

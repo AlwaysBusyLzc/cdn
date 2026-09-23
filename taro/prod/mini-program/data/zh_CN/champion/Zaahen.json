@@ -8,7 +8,7 @@
       "key": "166",
       "name": "暗裔魔戟",
       "title": "扎罕",
-      "blurb": "暗裔魔戟 扎罕，峡谷经典竞技英雄，擅长于TOP/JUNGLE作战。",
+      "blurb": "暗裔魔戟 扎罕，峡谷经典竞技英雄，擅长于TOP/MID作战。",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -31,7 +31,7 @@
       "partype": "法力",
       "lanes": [
         "TOP",
-        "JUNGLE"
+        "MID"
       ],
       "stats": {
         "hp": 600,
@@ -55,7 +55,7 @@
         "attackspeedperlevel": 2.5,
         "attackspeed": 0.658
       },
-      "lore": "暗裔魔戟 扎罕，峡谷经典竞技英雄，擅长于TOP/JUNGLE作战。",
+      "lore": "暗裔魔戟 扎罕，峡谷经典竞技英雄，擅长于TOP/MID作战。",
       "passive": {
         "name": "固有被动能力",
         "description": "暗裔魔戟 拥有专属被动战斗机制。",

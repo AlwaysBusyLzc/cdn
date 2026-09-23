@@ -8,7 +8,7 @@
       "key": "75",
       "name": "Locke",
       "title": "洛克",
-      "blurb": "灰烬驱魔人 洛克，峡谷经典竞技英雄，擅长于MID作战。",
+      "blurb": "灰烬驱魔人 洛克，峡谷经典竞技英雄，擅长于MID/TOP作战。",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -30,7 +30,8 @@
       ],
       "partype": "法力",
       "lanes": [
-        "MID"
+        "MID",
+        "TOP"
       ],
       "stats": {
         "hp": 600,
@@ -54,7 +55,7 @@
         "attackspeedperlevel": 2.5,
         "attackspeed": 0.658
       },
-      "lore": "灰烬驱魔人 洛克，峡谷经典竞技英雄，擅长于MID作战。",
+      "lore": "灰烬驱魔人 洛克，峡谷经典竞技英雄，擅长于MID/TOP作战。",
       "passive": {
         "name": "固有被动能力",
         "description": "灰烬驱魔人 拥有专属被动战斗机制。",

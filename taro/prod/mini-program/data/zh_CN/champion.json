@@ -3420,7 +3420,7 @@
       "key": "66",
       "name": "永猎双子",
       "title": "千珏",
-      "blurb": "永猎双子 千珏，峡谷经典竞技英雄，擅长于JUNGLE/BOTTOM作战。",
+      "blurb": "永猎双子 千珏，峡谷经典竞技英雄，擅长于JUNGLE作战。",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -3442,8 +3442,7 @@
       ],
       "partype": "法力",
       "lanes": [
-        "JUNGLE",
-        "BOTTOM"
+        "JUNGLE"
       ],
       "stats": {
         "hp": 600,
@@ -3577,7 +3576,7 @@
       "key": "69",
       "name": "纳祖芒荣耀",
       "title": "奎桑提",
-      "blurb": "纳祖芒荣耀 奎桑提，峡谷经典竞技英雄，擅长于TOP/MID作战。",
+      "blurb": "纳祖芒荣耀 奎桑提，峡谷经典竞技英雄，擅长于TOP作战。",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -3599,8 +3598,7 @@
       ],
       "partype": "法力",
       "lanes": [
-        "TOP",
-        "MID"
+        "TOP"
       ],
       "stats": {
         "hp": 600,
@@ -3891,7 +3889,7 @@
       "key": "75",
       "name": "灰烬驱魔人",
       "title": "洛克",
-      "blurb": "灰烬驱魔人 洛克，峡谷经典竞技英雄，擅长于MID作战。",
+      "blurb": "灰烬驱魔人 洛克，峡谷经典竞技英雄，擅长于MID/TOP作战。",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -3913,7 +3911,8 @@
       ],
       "partype": "法力",
       "lanes": [
-        "MID"
+        "MID",
+        "TOP"
       ],
       "stats": {
         "hp": 600,
@@ -4206,7 +4205,7 @@
       "key": "81",
       "name": "扭曲树精",
       "title": "茂凯",
-      "blurb": "扭曲树精 茂凯，峡谷经典竞技英雄，擅长于SUPPORT/JUNGLE/TOP作战。",
+      "blurb": "扭曲树精 茂凯，峡谷经典竞技英雄，擅长于SUPPORT/TOP/JUNGLE作战。",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -4229,8 +4228,8 @@
       "partype": "法力",
       "lanes": [
         "SUPPORT",
-        "JUNGLE",
-        "TOP"
+        "TOP",
+        "JUNGLE"
       ],
       "stats": {
         "hp": 600,
@@ -4417,7 +4416,7 @@
       "key": "85",
       "name": "赏金猎人",
       "title": "厄运小姐",
-      "blurb": "赏金猎人 厄运小姐，峡谷经典竞技英雄，擅长于BOTTOM作战。",
+      "blurb": "赏金猎人 厄运小姐，峡谷经典竞技英雄，擅长于BOTTOM/SUPPORT作战。",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -4438,7 +4437,8 @@
       ],
       "partype": "法力",
       "lanes": [
-        "BOTTOM"
+        "BOTTOM",
+        "SUPPORT"
       ],
       "stats": {
         "hp": 600,
@@ -4468,7 +4468,7 @@
       "key": "86",
       "name": "齐天大圣",
       "title": "孙悟空",
-      "blurb": "齐天大圣 孙悟空，峡谷经典竞技英雄，擅长于JUNGLE/TOP作战。",
+      "blurb": "齐天大圣 孙悟空，峡谷经典竞技英雄，擅长于TOP/JUNGLE作战。",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -4477,59 +4477,6 @@
       },
       "image": {
         "full": "MonkeyKing.png",
-        "sprite": "champion0.png",
-        "group": "champion",
-        "x": 0,
-        "y": 0,
-        "w": 48,
-        "h": 48
-      },
-      "tags": [
-        "Assassin",
-        "Fighter"
-      ],
-      "partype": "法力",
-      "lanes": [
-        "JUNGLE",
-        "TOP"
-      ],
-      "stats": {
-        "hp": 600,
-        "hpperlevel": 100,
-        "mp": 350,
-        "mpperlevel": 30,
-        "movespeed": 335,
-        "armor": 30,
-        "armorperlevel": 4.5,
-        "spellblock": 30,
-        "spellblockperlevel": 1.5,
-        "attackrange": 175,
-        "hpregen": 6,
-        "hpregenperlevel": 0.75,
-        "mpregen": 7,
-        "mpregenperlevel": 0.7,
-        "crit": 0,
-        "critperlevel": 0,
-        "attackdamage": 60,
-        "attackdamageperlevel": 3.5,
-        "attackspeedperlevel": 2.5,
-        "attackspeed": 0.658
-      }
-    },
-    "Mordekaiser": {
-      "id": "Mordekaiser",
-      "key": "87",
-      "name": "铁铠冥魂",
-      "title": "莫德凯撒",
-      "blurb": "铁铠冥魂 莫德凯撒，峡谷经典竞技英雄，擅长于TOP/JUNGLE作战。",
-      "info": {
-        "attack": 6,
-        "defense": 5,
-        "magic": 5,
-        "difficulty": 5
-      },
-      "image": {
-        "full": "Mordekaiser.png",
         "sprite": "champion0.png",
         "group": "champion",
         "x": 0,
@@ -4569,12 +4516,65 @@
         "attackspeed": 0.658
       }
     },
+    "Mordekaiser": {
+      "id": "Mordekaiser",
+      "key": "87",
+      "name": "铁铠冥魂",
+      "title": "莫德凯撒",
+      "blurb": "铁铠冥魂 莫德凯撒，峡谷经典竞技英雄，擅长于TOP/MID作战。",
+      "info": {
+        "attack": 6,
+        "defense": 5,
+        "magic": 5,
+        "difficulty": 5
+      },
+      "image": {
+        "full": "Mordekaiser.png",
+        "sprite": "champion0.png",
+        "group": "champion",
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      },
+      "tags": [
+        "Fighter",
+        "Tank"
+      ],
+      "partype": "法力",
+      "lanes": [
+        "TOP",
+        "MID"
+      ],
+      "stats": {
+        "hp": 600,
+        "hpperlevel": 100,
+        "mp": 350,
+        "mpperlevel": 30,
+        "movespeed": 335,
+        "armor": 30,
+        "armorperlevel": 4.5,
+        "spellblock": 30,
+        "spellblockperlevel": 1.5,
+        "attackrange": 175,
+        "hpregen": 6,
+        "hpregenperlevel": 0.75,
+        "mpregen": 7,
+        "mpregenperlevel": 0.7,
+        "crit": 0,
+        "critperlevel": 0,
+        "attackdamage": 60,
+        "attackdamageperlevel": 3.5,
+        "attackspeedperlevel": 2.5,
+        "attackspeed": 0.658
+      }
+    },
     "Morgana": {
       "id": "Morgana",
       "key": "88",
       "name": "堕落天使",
       "title": "莫甘娜",
-      "blurb": "堕落天使 莫甘娜，峡谷经典竞技英雄，擅长于SUPPORT/JUNGLE/MID作战。",
+      "blurb": "堕落天使 莫甘娜，峡谷经典竞技英雄，擅长于SUPPORT/MID/JUNGLE作战。",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -4597,8 +4597,8 @@
       "partype": "法力",
       "lanes": [
         "SUPPORT",
-        "JUNGLE",
-        "MID"
+        "MID",
+        "JUNGLE"
       ],
       "stats": {
         "hp": 600,
@@ -4628,7 +4628,7 @@
       "key": "89",
       "name": "百裂冥犬",
       "title": "纳亚菲利",
-      "blurb": "百裂冥犬 纳亚菲利，峡谷经典竞技英雄，擅长于MID/JUNGLE作战。",
+      "blurb": "百裂冥犬 纳亚菲利，峡谷经典竞技英雄，擅长于MID/TOP作战。",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -4651,7 +4651,7 @@
       "partype": "法力",
       "lanes": [
         "MID",
-        "JUNGLE"
+        "TOP"
       ],
       "stats": {
         "hp": 600,
@@ -4733,7 +4733,7 @@
       "key": "91",
       "name": "沙漠死神",
       "title": "内瑟斯",
-      "blurb": "沙漠死神 内瑟斯，峡谷经典竞技英雄，擅长于TOP作战。",
+      "blurb": "沙漠死神 内瑟斯，峡谷经典竞技英雄，擅长于TOP/MID作战。",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -4755,7 +4755,8 @@
       ],
       "partype": "法力",
       "lanes": [
-        "TOP"
+        "TOP",
+        "MID"
       ],
       "stats": {
         "hp": 600,
@@ -4785,7 +4786,7 @@
       "key": "92",
       "name": "深海泰坦",
       "title": "诺提勒斯",
-      "blurb": "深海泰坦 诺提勒斯，峡谷经典竞技英雄，擅长于SUPPORT作战。",
+      "blurb": "深海泰坦 诺提勒斯，峡谷经典竞技英雄，擅长于SUPPORT/JUNGLE作战。",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -4807,7 +4808,8 @@
       ],
       "partype": "法力",
       "lanes": [
-        "SUPPORT"
+        "SUPPORT",
+        "JUNGLE"
       ],
       "stats": {
         "hp": 600,
@@ -4993,7 +4995,7 @@
       "key": "96",
       "name": "永恒梦魇",
       "title": "魔腾",
-      "blurb": "永恒梦魇 魔腾，峡谷经典竞技英雄，擅长于JUNGLE作战。",
+      "blurb": "永恒梦魇 魔腾，峡谷经典竞技英雄，擅长于JUNGLE/MID作战。",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -5015,7 +5017,8 @@
       ],
       "partype": "法力",
       "lanes": [
-        "JUNGLE"
+        "JUNGLE",
+        "MID"
       ],
       "stats": {
         "hp": 600,
@@ -5045,7 +5048,7 @@
       "key": "97",
       "name": "雪原双子",
       "title": "努努和威朗普",
-      "blurb": "雪原双子 努努和威朗普，峡谷经典竞技英雄，擅长于JUNGLE作战。",
+      "blurb": "雪原双子 努努和威朗普，峡谷经典竞技英雄，擅长于JUNGLE/MID作战。",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -5067,7 +5070,8 @@
       ],
       "partype": "法力",
       "lanes": [
-        "JUNGLE"
+        "JUNGLE",
+        "MID"
       ],
       "stats": {
         "hp": 600,
@@ -5202,7 +5206,7 @@
       "key": "100",
       "name": "山隐之焰",
       "title": "奥恩",
-      "blurb": "山隐之焰 奥恩，峡谷经典竞技英雄，擅长于TOP作战。",
+      "blurb": "山隐之焰 奥恩，峡谷经典竞技英雄，擅长于TOP/SUPPORT作战。",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -5224,7 +5228,8 @@
       ],
       "partype": "法力",
       "lanes": [
-        "TOP"
+        "TOP",
+        "SUPPORT"
       ],
       "stats": {
         "hp": 600,
@@ -5254,7 +5259,7 @@
       "key": "101",
       "name": "不屈之枪",
       "title": "潘森",
-      "blurb": "不屈之枪 潘森，峡谷经典竞技英雄，擅长于TOP/MID/SUPPORT作战。",
+      "blurb": "不屈之枪 潘森，峡谷经典竞技英雄，擅长于SUPPORT/MID/TOP作战。",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -5271,14 +5276,14 @@
         "h": 48
       },
       "tags": [
-        "Fighter",
+        "Support",
         "Tank"
       ],
       "partype": "法力",
       "lanes": [
-        "TOP",
+        "SUPPORT",
         "MID",
-        "SUPPORT"
+        "TOP"
       ],
       "stats": {
         "hp": 600,
@@ -5362,7 +5367,7 @@
       "key": "103",
       "name": "血港鬼影",
       "title": "派克",
-      "blurb": "血港鬼影 派克，峡谷经典竞技英雄，擅长于SUPPORT作战。",
+      "blurb": "血港鬼影 派克，峡谷经典竞技英雄，擅长于SUPPORT/MID作战。",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -5384,7 +5389,8 @@
       ],
       "partype": "法力",
       "lanes": [
-        "SUPPORT"
+        "SUPPORT",
+        "MID"
       ],
       "stats": {
         "hp": 600,
@@ -5467,7 +5473,7 @@
       "key": "105",
       "name": "德玛西亚之翼",
       "title": "奎因",
-      "blurb": "德玛西亚之翼 奎因，峡谷经典竞技英雄，擅长于TOP作战。",
+      "blurb": "德玛西亚之翼 奎因，峡谷经典竞技英雄，擅长于TOP/MID作战。",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -5489,7 +5495,8 @@
       ],
       "partype": "法力",
       "lanes": [
-        "TOP"
+        "TOP",
+        "MID"
       ],
       "stats": {
         "hp": 600,
@@ -6204,7 +6211,7 @@
       "key": "119",
       "name": "星籁歌姬",
       "title": "萨勒芬妮",
-      "blurb": "星籁歌姬 萨勒芬妮，峡谷经典竞技英雄，擅长于SUPPORT/BOTTOM/MID作战。",
+      "blurb": "星籁歌姬 萨勒芬妮，峡谷经典竞技英雄，擅长于SUPPORT/MID/BOTTOM作战。",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -6227,8 +6234,8 @@
       "partype": "法力",
       "lanes": [
         "SUPPORT",
-        "BOTTOM",
-        "MID"
+        "MID",
+        "BOTTOM"
       ],
       "stats": {
         "hp": 600,
@@ -6258,7 +6265,7 @@
       "key": "120",
       "name": "腕豪",
       "title": "瑟提",
-      "blurb": "腕豪 瑟提，峡谷经典竞技英雄，擅长于TOP/SUPPORT/MID作战。",
+      "blurb": "腕豪 瑟提，峡谷经典竞技英雄，擅长于TOP/MID/SUPPORT作战。",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -6281,8 +6288,8 @@
       "partype": "法力",
       "lanes": [
         "TOP",
-        "SUPPORT",
-        "MID"
+        "MID",
+        "SUPPORT"
       ],
       "stats": {
         "hp": 600,
@@ -6681,7 +6688,7 @@
       "key": "128",
       "name": "炽炎雏龙",
       "title": "斯莫德",
-      "blurb": "炽炎雏龙 斯莫德，峡谷经典竞技英雄，擅长于BOTTOM/MID/TOP作战。",
+      "blurb": "炽炎雏龙 斯莫德，峡谷经典竞技英雄，擅长于BOTTOM/MID作战。",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -6703,8 +6710,7 @@
       "partype": "法力",
       "lanes": [
         "BOTTOM",
-        "MID",
-        "TOP"
+        "MID"
       ],
       "stats": {
         "hp": 600,
@@ -6838,7 +6844,7 @@
       "key": "131",
       "name": "诺克萨斯统领",
       "title": "斯维因",
-      "blurb": "诺克萨斯统领 斯维因，峡谷经典竞技英雄，擅长于SUPPORT/MID/BOTTOM作战。",
+      "blurb": "诺克萨斯统领 斯维因，峡谷经典竞技英雄，擅长于SUPPORT/MID/TOP/BOTTOM作战。",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -6862,6 +6868,7 @@
       "lanes": [
         "SUPPORT",
         "MID",
+        "TOP",
         "BOTTOM"
       ],
       "stats": {
@@ -6892,7 +6899,7 @@
       "key": "132",
       "name": "解脱者",
       "title": "塞拉斯",
-      "blurb": "解脱者 塞拉斯，峡谷经典竞技英雄，擅长于MID/JUNGLE/TOP作战。",
+      "blurb": "解脱者 塞拉斯，峡谷经典竞技英雄，擅长于MID/TOP/JUNGLE作战。",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -6915,8 +6922,8 @@
       "partype": "法力",
       "lanes": [
         "MID",
-        "JUNGLE",
-        "TOP"
+        "TOP",
+        "JUNGLE"
       ],
       "stats": {
         "hp": 600,
@@ -6998,7 +7005,7 @@
       "key": "134",
       "name": "河流之王",
       "title": "塔姆·肯奇",
-      "blurb": "河流之王 塔姆·肯奇，峡谷经典竞技英雄，擅长于TOP/SUPPORT作战。",
+      "blurb": "河流之王 塔姆·肯奇，峡谷经典竞技英雄，擅长于SUPPORT/TOP作战。",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -7015,13 +7022,13 @@
         "h": 48
       },
       "tags": [
-        "Fighter",
+        "Support",
         "Tank"
       ],
       "partype": "法力",
       "lanes": [
-        "TOP",
-        "SUPPORT"
+        "SUPPORT",
+        "TOP"
       ],
       "stats": {
         "hp": 600,
@@ -7157,7 +7164,7 @@
       "key": "137",
       "name": "瓦罗兰之盾",
       "title": "塔里克",
-      "blurb": "瓦罗兰之盾 塔里克，峡谷经典竞技英雄，擅长于SUPPORT/JUNGLE作战。",
+      "blurb": "瓦罗兰之盾 塔里克，峡谷经典竞技英雄，擅长于SUPPORT作战。",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -7179,8 +7186,7 @@
       ],
       "partype": "法力",
       "lanes": [
-        "SUPPORT",
-        "JUNGLE"
+        "SUPPORT"
       ],
       "stats": {
         "hp": 600,
@@ -7210,7 +7216,7 @@
       "key": "138",
       "name": "迅捷斥候",
       "title": "提莫",
-      "blurb": "迅捷斥候 提莫，峡谷经典竞技英雄，擅长于TOP/SUPPORT作战。",
+      "blurb": "迅捷斥候 提莫，峡谷经典竞技英雄，擅长于TOP/MID/SUPPORT作战。",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -7233,6 +7239,7 @@
       "partype": "法力",
       "lanes": [
         "TOP",
+        "MID",
         "SUPPORT"
       ],
       "stats": {
@@ -7418,9 +7425,9 @@
     "Tryndamere": {
       "id": "Tryndamere",
       "key": "142",
-      "name": "无极剑圣",
+      "name": "蛮族之王",
       "title": "泰达米尔",
-      "blurb": "无极剑圣 泰达米尔，峡谷经典竞技英雄，擅长于TOP/MID作战。",
+      "blurb": "蛮族之王 泰达米尔，峡谷经典竞技英雄，擅长于TOP/MID作战。",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -7473,7 +7480,7 @@
       "key": "143",
       "name": "卡牌大师",
       "title": "崔斯特",
-      "blurb": "卡牌大师 崔斯特，峡谷经典竞技英雄，擅长于MID/TOP作战。",
+      "blurb": "卡牌大师 崔斯特，峡谷经典竞技英雄，擅长于MID/BOTTOM作战。",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -7496,7 +7503,7 @@
       "partype": "法力",
       "lanes": [
         "MID",
-        "TOP"
+        "BOTTOM"
       ],
       "stats": {
         "hp": 600,
@@ -7526,7 +7533,7 @@
       "key": "144",
       "name": "瘟疫之源",
       "title": "图奇",
-      "blurb": "瘟疫之源 图奇，峡谷经典竞技英雄，擅长于BOTTOM作战。",
+      "blurb": "瘟疫之源 图奇，峡谷经典竞技英雄，擅长于BOTTOM/SUPPORT作战。",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -7547,7 +7554,8 @@
       ],
       "partype": "法力",
       "lanes": [
-        "BOTTOM"
+        "BOTTOM",
+        "SUPPORT"
       ],
       "stats": {
         "hp": 600,
@@ -7630,7 +7638,7 @@
       "key": "146",
       "name": "无畏战车",
       "title": "厄加特",
-      "blurb": "无畏战车 厄加特，峡谷经典竞技英雄，擅长于TOP作战。",
+      "blurb": "无畏战车 厄加特，峡谷经典竞技英雄，擅长于TOP/MID作战。",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -7652,7 +7660,8 @@
       ],
       "partype": "法力",
       "lanes": [
-        "TOP"
+        "TOP",
+        "MID"
       ],
       "stats": {
         "hp": 600,
@@ -7786,7 +7795,7 @@
       "key": "149",
       "name": "邪恶小法师",
       "title": "维迦",
-      "blurb": "邪恶小法师 维迦，峡谷经典竞技英雄，擅长于MID/BOTTOM作战。",
+      "blurb": "邪恶小法师 维迦，峡谷经典竞技英雄，擅长于MID/BOTTOM/SUPPORT作战。",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -7809,7 +7818,8 @@
       "partype": "法力",
       "lanes": [
         "MID",
-        "BOTTOM"
+        "BOTTOM",
+        "SUPPORT"
       ],
       "stats": {
         "hp": 600,
@@ -8364,7 +8374,7 @@
       "key": "160",
       "name": "德邦总管",
       "title": "赵信",
-      "blurb": "德邦总管 赵信，峡谷经典竞技英雄，擅长于JUNGLE作战。",
+      "blurb": "德邦总管 赵信，峡谷经典竞技英雄，擅长于JUNGLE/TOP作战。",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -8386,7 +8396,8 @@
       ],
       "partype": "法力",
       "lanes": [
-        "JUNGLE"
+        "JUNGLE",
+        "TOP"
       ],
       "stats": {
         "hp": 600,
@@ -8523,7 +8534,7 @@
       "key": "163",
       "name": "牧魂人",
       "title": "约里克",
-      "blurb": "牧魂人 约里克，峡谷经典竞技英雄，擅长于TOP作战。",
+      "blurb": "牧魂人 约里克，峡谷经典竞技英雄，擅长于TOP/MID作战。",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -8545,7 +8556,8 @@
       ],
       "partype": "法力",
       "lanes": [
-        "TOP"
+        "TOP",
+        "MID"
       ],
       "stats": {
         "hp": 600,
@@ -8575,7 +8587,7 @@
       "key": "164",
       "name": "青羽灵巫",
       "title": "尤娜拉",
-      "blurb": "青羽灵巫 尤娜拉，峡谷经典竞技英雄，擅长于BOTTOM作战。",
+      "blurb": "青羽灵巫 尤娜拉，峡谷经典竞技英雄，擅长于MID/SUPPORT作战。",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -8592,11 +8604,13 @@
         "h": 48
       },
       "tags": [
-        "Marksman"
+        "Mage",
+        "Assassin"
       ],
       "partype": "法力",
       "lanes": [
-        "BOTTOM"
+        "MID",
+        "SUPPORT"
       ],
       "stats": {
         "hp": 600,
@@ -8608,7 +8622,7 @@
         "armorperlevel": 4.5,
         "spellblock": 30,
         "spellblockperlevel": 1.5,
-        "attackrange": 550,
+        "attackrange": 175,
         "hpregen": 6,
         "hpregenperlevel": 0.75,
         "mpregen": 7,
@@ -8678,7 +8692,7 @@
       "key": "166",
       "name": "暗裔魔戟",
       "title": "扎罕",
-      "blurb": "暗裔魔戟 扎罕，峡谷经典竞技英雄，擅长于TOP/JUNGLE作战。",
+      "blurb": "暗裔魔戟 扎罕，峡谷经典竞技英雄，擅长于TOP/MID作战。",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -8701,7 +8715,7 @@
       "partype": "法力",
       "lanes": [
         "TOP",
-        "JUNGLE"
+        "MID"
       ],
       "stats": {
         "hp": 600,

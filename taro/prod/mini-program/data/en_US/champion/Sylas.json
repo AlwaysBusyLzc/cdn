@@ -8,7 +8,7 @@
       "key": "132",
       "name": "Sylas",
       "title": "塞拉斯",
-      "blurb": "解脱者 塞拉斯，峡谷经典竞技英雄，擅长于MID/JUNGLE/TOP作战。",
+      "blurb": "解脱者 塞拉斯，峡谷经典竞技英雄，擅长于MID/TOP/JUNGLE作战。",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -31,8 +31,8 @@
       "partype": "法力",
       "lanes": [
         "MID",
-        "JUNGLE",
-        "TOP"
+        "TOP",
+        "JUNGLE"
       ],
       "stats": {
         "hp": 600,
@@ -56,7 +56,7 @@
         "attackspeedperlevel": 2.5,
         "attackspeed": 0.658
       },
-      "lore": "解脱者 塞拉斯，峡谷经典竞技英雄，擅长于MID/JUNGLE/TOP作战。",
+      "lore": "解脱者 塞拉斯，峡谷经典竞技英雄，擅长于MID/TOP/JUNGLE作战。",
       "passive": {
         "name": "固有被动能力",
         "description": "解脱者 拥有专属被动战斗机制。",

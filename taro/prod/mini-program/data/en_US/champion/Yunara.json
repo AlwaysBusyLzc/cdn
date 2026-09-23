@@ -8,7 +8,7 @@
       "key": "164",
       "name": "Yunara",
       "title": "尤娜拉",
-      "blurb": "青羽灵巫 尤娜拉，峡谷经典竞技英雄，擅长于BOTTOM作战。",
+      "blurb": "青羽灵巫 尤娜拉，峡谷经典竞技英雄，擅长于MID/SUPPORT作战。",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -25,11 +25,13 @@
         "h": 48
       },
       "tags": [
-        "Marksman"
+        "Mage",
+        "Assassin"
       ],
       "partype": "法力",
       "lanes": [
-        "BOTTOM"
+        "MID",
+        "SUPPORT"
       ],
       "stats": {
         "hp": 600,
@@ -41,7 +43,7 @@
         "armorperlevel": 4.5,
         "spellblock": 30,
         "spellblockperlevel": 1.5,
-        "attackrange": 550,
+        "attackrange": 175,
         "hpregen": 6,
         "hpregenperlevel": 0.75,
         "mpregen": 7,
@@ -53,7 +55,7 @@
         "attackspeedperlevel": 2.5,
         "attackspeed": 0.658
       },
-      "lore": "青羽灵巫 尤娜拉，峡谷经典竞技英雄，擅长于BOTTOM作战。",
+      "lore": "青羽灵巫 尤娜拉，峡谷经典竞技英雄，擅长于MID/SUPPORT作战。",
       "passive": {
         "name": "固有被动能力",
         "description": "青羽灵巫 拥有专属被动战斗机制。",

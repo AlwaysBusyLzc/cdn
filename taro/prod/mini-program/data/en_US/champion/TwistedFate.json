@@ -8,7 +8,7 @@
       "key": "143",
       "name": "TwistedFate",
       "title": "崔斯特",
-      "blurb": "卡牌大师 崔斯特，峡谷经典竞技英雄，擅长于MID/TOP作战。",
+      "blurb": "卡牌大师 崔斯特，峡谷经典竞技英雄，擅长于MID/BOTTOM作战。",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -31,7 +31,7 @@
       "partype": "法力",
       "lanes": [
         "MID",
-        "TOP"
+        "BOTTOM"
       ],
       "stats": {
         "hp": 600,
@@ -55,7 +55,7 @@
         "attackspeedperlevel": 2.5,
         "attackspeed": 0.658
       },
-      "lore": "卡牌大师 崔斯特，峡谷经典竞技英雄，擅长于MID/TOP作战。",
+      "lore": "卡牌大师 崔斯特，峡谷经典竞技英雄，擅长于MID/BOTTOM作战。",
       "passive": {
         "name": "固有被动能力",
         "description": "卡牌大师 拥有专属被动战斗机制。",

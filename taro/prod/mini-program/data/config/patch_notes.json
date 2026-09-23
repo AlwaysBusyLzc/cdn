@@ -1,0 +1,364 @@
+{
+  "zh_CN": {
+    "changes": [
+      {
+        "id": 101,
+        "patch": "16.18.1",
+        "category": 1,
+        "changeType": 1,
+        "targetId": 103,
+        "targetRiotId": "Ahri",
+        "name": "九尾妖狐 阿狸",
+        "subtitle": "中路 · 法师 / 刺客",
+        "details": [
+          "基础生命值：580 -> 610",
+          "Q【欺诈宝珠】：AP加成从 0.45 提升至 0.50，返程真实伤害同步提升",
+          "W【妖异狐火】：冷却时间从 9/8/7/6/5s 缩短至 8/7/6/5/4s"
+        ],
+        "intent": "“提升阿狸在前期对线的清线效率与消耗游走能力。”",
+        "sortOrder": 1
+      },
+      {
+        "id": 102,
+        "patch": "16.18.1",
+        "category": 1,
+        "changeType": 1,
+        "targetId": 157,
+        "targetRiotId": "Yasuo",
+        "name": "疾风剑豪 亚索",
+        "subtitle": "中路 / 上路 · 战士",
+        "details": [
+          "被动【百折不屈】：护盾值从 125-600 提升至 150-650",
+          "E【踏前斩】：每层基础伤害提升从 15% 调整至 25% (最大 50%)"
+        ],
+        "intent": "“增强亚索在对线对抗远程法师时的生存抵抗力与近身压制。”",
+        "sortOrder": 2
+      },
+      {
+        "id": 103,
+        "patch": "16.18.1",
+        "category": 1,
+        "changeType": 1,
+        "targetId": 81,
+        "targetRiotId": "Ezreal",
+        "name": "探险家 伊泽瑞尔",
+        "subtitle": "下路 · 射手",
+        "details": [
+          "Q【秘术射击】：基础伤害从 20/45/70/95/120 提升至 25/50/75/100/125",
+          "基础法力回复：从 8.05/5s 提升至 8.75/5s"
+        ],
+        "intent": "“改善伊泽瑞尔前中期的补刀与技能消耗手感。”",
+        "sortOrder": 3
+      },
+      {
+        "id": 104,
+        "patch": "16.18.1",
+        "category": 1,
+        "changeType": 1,
+        "targetId": 516,
+        "targetRiotId": "Ornn",
+        "name": "山隐之焰 奥恩",
+        "subtitle": "上路 · 坦克 / 战士",
+        "details": [
+          "被动【活体锻炉】：升级装备为自身提供的额外双抗从 10% 提升至 12%",
+          "Q【火山突堑】：法力消耗从 45 降低至 35"
+        ],
+        "intent": "“提升奥恩后期作为全队防御支柱的坦度收益。”",
+        "sortOrder": 4
+      },
+      {
+        "id": 105,
+        "patch": "16.18.1",
+        "category": 1,
+        "changeType": 2,
+        "targetId": 875,
+        "targetRiotId": "Sett",
+        "name": "腕豪 瑟提",
+        "subtitle": "上路 / 辅助 · 战士",
+        "details": [
+          "W【蓄力轰拳】：豪气转化为真实伤害的比率从 25% (+0.25额外AD) 降低至 20% (+0.20额外AD)",
+          "基础生命回复：从 9.5 降低至 8.0"
+        ],
+        "intent": "“略微抑制瑟提在残血时的极端反杀爆发与赖线能力。”",
+        "sortOrder": 5
+      },
+      {
+        "id": 106,
+        "patch": "16.18.1",
+        "category": 1,
+        "changeType": 2,
+        "targetId": 222,
+        "targetRiotId": "Jinx",
+        "name": "暴走萝莉 金克丝",
+        "subtitle": "下路 · 射手",
+        "details": [
+          "被动【罪恶快感】：触发后的攻速加成从 25% 调整至 20%",
+          "R【超究极死神飞弹】：对主目标的斩杀百分比从 25/30/35% 降低至 20/25/30%"
+        ],
+        "intent": "“降低金克丝在团战收割时的滚雪球速度。”",
+        "sortOrder": 6
+      },
+      {
+        "id": 107,
+        "patch": "16.18.1",
+        "category": 2,
+        "changeType": 3,
+        "targetId": 3031,
+        "targetRiotId": "3031",
+        "name": "无尽之刃",
+        "subtitle": "暴击系核心传说装备",
+        "details": [
+          "总售价：3400G -> 3300G (降价 100G)",
+          "暴击伤害加成：从 40% 调整为 35%"
+        ],
+        "intent": "“降低射手做出首件无尽的成型门槛，同时平滑中后期爆发。”",
+        "sortOrder": 7
+      },
+      {
+        "id": 108,
+        "patch": "16.18.1",
+        "category": 2,
+        "changeType": 1,
+        "targetId": 3089,
+        "targetRiotId": "3089",
+        "name": "灭世者的死亡之帽",
+        "subtitle": "法系核心传说装备",
+        "details": [
+          "法术强度：120 -> 140",
+          "被动百分比法强提升：保持 35%"
+        ],
+        "intent": "“使帽子作为法师终极质变装的地位更加明确。”",
+        "sortOrder": 8
+      },
+      {
+        "id": 109,
+        "patch": "16.18.1",
+        "category": 3,
+        "changeType": 3,
+        "targetId": 0,
+        "targetRiotId": "Mechanics",
+        "name": "防御塔镀层赏金机制",
+        "subtitle": "对线期经济机制",
+        "details": [
+          "单层镀层金币：从 125G 调整至 115G",
+          "镀层掉落防御力加成：每层提供 35 双抗调整至 40 双抗"
+        ],
+        "intent": "“略微延缓前期的单线推塔滚雪球速度，给抗压路更多发育机会。”",
+        "sortOrder": 9
+      }
+    ],
+    "news": [
+      {
+        "id": 1,
+        "tag": "★ 下个版本预告 (16.19)",
+        "tagType": 1,
+        "title": "16.19 预计改动前瞻：法师神话装备与野区节奏大修",
+        "summary": "平衡设计团队预告将在 16.19 版本对法师类史诗装备合成路径进行平滑化调整，并优化河道野怪的击杀经验收益。",
+        "source": "开发者日志",
+        "date": "2026-09-20",
+        "link": ""
+      },
+      {
+        "id": 2,
+        "tag": "赛事热点",
+        "tagType": 2,
+        "title": "2026 全球总决赛版本动向：竞技赛场英雄平衡深度解析",
+        "summary": "官方公布本年度世界赛专属平衡策略，旨在丰富下路辅助生态，鼓励更多进攻型硬辅与游走开团英雄登场。",
+        "source": "赛事实况",
+        "date": "2026-09-19",
+        "link": ""
+      },
+      {
+        "id": 3,
+        "tag": "玩法机制",
+        "tagType": 3,
+        "title": "设计师对线哲学：关于防御塔防滚雪球机制的后续规划",
+        "summary": "设计团队分享了近期针对对线期一塔击破时间与赏金分配的统计数据，探讨未来可能加入的动态防御塔韧性机制。",
+        "source": "对线机制前瞻",
+        "date": "2026-09-17",
+        "link": ""
+      }
+    ]
+  },
+  "en_US": {
+    "changes": [
+      {
+        "id": 101,
+        "patch": "16.18.1",
+        "category": 1,
+        "changeType": 1,
+        "targetId": 103,
+        "targetRiotId": "Ahri",
+        "name": "Ahri, the Nine-Tailed Fox",
+        "subtitle": "Middle · Mage / Assassin",
+        "details": [
+          "Base Health: 580 -> 610",
+          "Q [Orb of Deception]: AP ratio increased from 0.45 to 0.50, return true damage increased accordingly",
+          "W [Fox-Fire]: Cooldown reduced from 9/8/7/6/5s to 8/7/6/5/4s"
+        ],
+        "intent": "\"Enhance Ahri's early laning waveclear and roaming potential.\"",
+        "sortOrder": 1
+      },
+      {
+        "id": 102,
+        "patch": "16.18.1",
+        "category": 1,
+        "changeType": 1,
+        "targetId": 157,
+        "targetRiotId": "Yasuo",
+        "name": "Yasuo, the Unforgiven",
+        "subtitle": "Middle / Top · Fighter",
+        "details": [
+          "Passive [Way of the Wanderer]: Shield increased from 125-600 to 150-650",
+          "E [Sweeping Blade]: Base damage increase per stack adjusted from 15% to 25% (max 50%)"
+        ],
+        "intent": "\"Strengthen Yasuo's survivability and trading pressure against ranged mages in lane.\"",
+        "sortOrder": 2
+      },
+      {
+        "id": 103,
+        "patch": "16.18.1",
+        "category": 1,
+        "changeType": 1,
+        "targetId": 81,
+        "targetRiotId": "Ezreal",
+        "name": "Ezreal, the Prodigal Explorer",
+        "subtitle": "Bottom · Marksman",
+        "details": [
+          "Q [Mystic Shot]: Base damage increased from 20/45/70/95/120 to 25/50/75/100/125",
+          "Base Mana Regen: Increased from 8.05/5s to 8.75/5s"
+        ],
+        "intent": "\"Improve Ezreal's early poke, CSing feel, and mana sustain.\"",
+        "sortOrder": 3
+      },
+      {
+        "id": 104,
+        "patch": "16.18.1",
+        "category": 1,
+        "changeType": 1,
+        "targetId": 516,
+        "targetRiotId": "Ornn",
+        "name": "Ornn, The Fire below the Mountain",
+        "subtitle": "Top · Tank / Fighter",
+        "details": [
+          "Passive [Living Forge]: Bonus defensive stats per upgraded masterwork item increased from 10% to 12%",
+          "Q [Volcanic Rupture]: Mana cost reduced from 45 to 35"
+        ],
+        "intent": "\"Boost Ornn's late-game scaling as the premier frontline tank.\"",
+        "sortOrder": 4
+      },
+      {
+        "id": 105,
+        "patch": "16.18.1",
+        "category": 1,
+        "changeType": 2,
+        "targetId": 875,
+        "targetRiotId": "Sett",
+        "name": "Sett, the Boss",
+        "subtitle": "Top / Support · Fighter",
+        "details": [
+          "W [Haymaker]: Grit true damage conversion ratio reduced from 25% (+0.25 bonus AD) to 20% (+0.20 bonus AD)",
+          "Base Health Regen: Reduced from 9.5 to 8.0"
+        ],
+        "intent": "\"Tone down Sett's extreme comeback burst at low health and lane sustain.\"",
+        "sortOrder": 5
+      },
+      {
+        "id": 106,
+        "patch": "16.18.1",
+        "category": 1,
+        "changeType": 2,
+        "targetId": 222,
+        "targetRiotId": "Jinx",
+        "name": "Jinx, the Loose Cannon",
+        "subtitle": "Bottom · Marksman",
+        "details": [
+          "Passive [Get Excited!]: Attack speed bonus adjusted from 25% to 20%",
+          "R [Super Mega Death Rocket!]: Execute damage percentage on primary target reduced from 25/30/35% to 20/25/30%"
+        ],
+        "intent": "\"Slow down Jinx's teamfight snowball potential.\"",
+        "sortOrder": 6
+      },
+      {
+        "id": 107,
+        "patch": "16.18.1",
+        "category": 2,
+        "changeType": 3,
+        "targetId": 3031,
+        "targetRiotId": "3031",
+        "name": "Infinity Edge",
+        "subtitle": "Critical Strike Core Legendary Item",
+        "details": [
+          "Total Cost: 3400G -> 3300G (-100G)",
+          "Bonus Critical Strike Damage: Adjusted from 40% to 35%"
+        ],
+        "intent": "\"Lower the barrier for marksmen to complete their first IE while smoothing mid-game burst.\"",
+        "sortOrder": 7
+      },
+      {
+        "id": 108,
+        "patch": "16.18.1",
+        "category": 2,
+        "changeType": 1,
+        "targetId": 3089,
+        "targetRiotId": "3089",
+        "name": "Rabadon's Deathcap",
+        "subtitle": "Magic AP Core Legendary Item",
+        "details": [
+          "Ability Power: 120 -> 140",
+          "Passive Magical Opus AP boost: Maintained at 35%"
+        ],
+        "intent": "\"Reaffirm Deathcap's iconic identity as the ultimate capstone item for mages.\"",
+        "sortOrder": 8
+      },
+      {
+        "id": 109,
+        "patch": "16.18.1",
+        "category": 3,
+        "changeType": 3,
+        "targetId": 0,
+        "targetRiotId": "Mechanics",
+        "name": "Turret Plating Bounty Mechanics",
+        "subtitle": "Laning Phase Economy Mechanism",
+        "details": [
+          "Per Plate Gold: Adjusted from 125G to 115G",
+          "Plating Loss Resistances: 35 Armor/MR per broken plate increased to 40 Armor/MR"
+        ],
+        "intent": "\"Slightly delay early solo-lane tower destruction and snowball pacing, giving weak-side lanes more room to breathe.\"",
+        "sortOrder": 9
+      }
+    ],
+    "news": [
+      {
+        "id": 1,
+        "tag": "★ Next Patch Preview (16.19)",
+        "tagType": 1,
+        "title": "16.19 Patch Preview: Mage Itemization and Jungle Pacing Overhaul",
+        "summary": "The balance team previews smoother build paths for mage Epic items and revamped jungle EXP rewards in patch 16.19.",
+        "source": "Dev Blog",
+        "date": "2026-09-20",
+        "link": ""
+      },
+      {
+        "id": 2,
+        "tag": "Hot Topics",
+        "tagType": 2,
+        "title": "2026 World Championship Meta: Deep Dive into Pro Play Balance",
+        "summary": "Balancing strategies aimed at diversifying support pool, encouraging proactive engage initiators and roaming champions.",
+        "source": "Esports News",
+        "date": "2026-09-19",
+        "link": ""
+      },
+      {
+        "id": 3,
+        "tag": "Gameplay",
+        "tagType": 3,
+        "title": "Design Thoughts: Future Plans on Anti-Snowballing Tower Dynamics",
+        "summary": "The design team shares recent stats regarding first-turret takedown timers and discusses potential dynamic tower tenacity systems.",
+        "source": "Gameplay Thoughts",
+        "date": "2026-09-17",
+        "link": ""
+      }
+    ]
+  }
+}

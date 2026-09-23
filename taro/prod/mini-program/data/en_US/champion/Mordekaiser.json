@@ -8,7 +8,7 @@
       "key": "87",
       "name": "Mordekaiser",
       "title": "莫德凯撒",
-      "blurb": "铁铠冥魂 莫德凯撒，峡谷经典竞技英雄，擅长于TOP/JUNGLE作战。",
+      "blurb": "铁铠冥魂 莫德凯撒，峡谷经典竞技英雄，擅长于TOP/MID作战。",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -31,7 +31,7 @@
       "partype": "法力",
       "lanes": [
         "TOP",
-        "JUNGLE"
+        "MID"
       ],
       "stats": {
         "hp": 600,
@@ -55,7 +55,7 @@
         "attackspeedperlevel": 2.5,
         "attackspeed": 0.658
       },
-      "lore": "铁铠冥魂 莫德凯撒，峡谷经典竞技英雄，擅长于TOP/JUNGLE作战。",
+      "lore": "铁铠冥魂 莫德凯撒，峡谷经典竞技英雄，擅长于TOP/MID作战。",
       "passive": {
         "name": "固有被动能力",
         "description": "铁铠冥魂 拥有专属被动战斗机制。",

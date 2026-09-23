@@ -8,7 +8,7 @@
       "key": "149",
       "name": "Veigar",
       "title": "维迦",
-      "blurb": "邪恶小法师 维迦，峡谷经典竞技英雄，擅长于MID/BOTTOM作战。",
+      "blurb": "邪恶小法师 维迦，峡谷经典竞技英雄，擅长于MID/BOTTOM/SUPPORT作战。",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -31,7 +31,8 @@
       "partype": "法力",
       "lanes": [
         "MID",
-        "BOTTOM"
+        "BOTTOM",
+        "SUPPORT"
       ],
       "stats": {
         "hp": 600,
@@ -55,7 +56,7 @@
         "attackspeedperlevel": 2.5,
         "attackspeed": 0.658
       },
-      "lore": "邪恶小法师 维迦，峡谷经典竞技英雄，擅长于MID/BOTTOM作战。",
+      "lore": "邪恶小法师 维迦，峡谷经典竞技英雄，擅长于MID/BOTTOM/SUPPORT作战。",
       "passive": {
         "name": "固有被动能力",
         "description": "邪恶小法师 拥有专属被动战斗机制。",

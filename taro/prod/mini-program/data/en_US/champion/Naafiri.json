@@ -8,7 +8,7 @@
       "key": "89",
       "name": "Naafiri",
       "title": "纳亚菲利",
-      "blurb": "百裂冥犬 纳亚菲利，峡谷经典竞技英雄，擅长于MID/JUNGLE作战。",
+      "blurb": "百裂冥犬 纳亚菲利，峡谷经典竞技英雄，擅长于MID/TOP作战。",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -31,7 +31,7 @@
       "partype": "法力",
       "lanes": [
         "MID",
-        "JUNGLE"
+        "TOP"
       ],
       "stats": {
         "hp": 600,
@@ -55,7 +55,7 @@
         "attackspeedperlevel": 2.5,
         "attackspeed": 0.658
       },
-      "lore": "百裂冥犬 纳亚菲利，峡谷经典竞技英雄，擅长于MID/JUNGLE作战。",
+      "lore": "百裂冥犬 纳亚菲利，峡谷经典竞技英雄，擅长于MID/TOP作战。",
       "passive": {
         "name": "固有被动能力",
         "description": "百裂冥犬 拥有专属被动战斗机制。",

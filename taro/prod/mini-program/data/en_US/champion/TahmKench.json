@@ -8,7 +8,7 @@
       "key": "134",
       "name": "TahmKench",
       "title": "塔姆·肯奇",
-      "blurb": "河流之王 塔姆·肯奇，峡谷经典竞技英雄，擅长于TOP/SUPPORT作战。",
+      "blurb": "河流之王 塔姆·肯奇，峡谷经典竞技英雄，擅长于SUPPORT/TOP作战。",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -25,13 +25,13 @@
         "h": 48
       },
       "tags": [
-        "Fighter",
+        "Support",
         "Tank"
       ],
       "partype": "法力",
       "lanes": [
-        "TOP",
-        "SUPPORT"
+        "SUPPORT",
+        "TOP"
       ],
       "stats": {
         "hp": 600,
@@ -55,7 +55,7 @@
         "attackspeedperlevel": 2.5,
         "attackspeed": 0.658
       },
-      "lore": "河流之王 塔姆·肯奇，峡谷经典竞技英雄，擅长于TOP/SUPPORT作战。",
+      "lore": "河流之王 塔姆·肯奇，峡谷经典竞技英雄，擅长于SUPPORT/TOP作战。",
       "passive": {
         "name": "固有被动能力",
         "description": "河流之王 拥有专属被动战斗机制。",

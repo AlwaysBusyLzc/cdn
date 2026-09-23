@@ -8,7 +8,7 @@
       "key": "138",
       "name": "Teemo",
       "title": "提莫",
-      "blurb": "迅捷斥候 提莫，峡谷经典竞技英雄，擅长于TOP/SUPPORT作战。",
+      "blurb": "迅捷斥候 提莫，峡谷经典竞技英雄，擅长于TOP/MID/SUPPORT作战。",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -31,6 +31,7 @@
       "partype": "法力",
       "lanes": [
         "TOP",
+        "MID",
         "SUPPORT"
       ],
       "stats": {
@@ -55,7 +56,7 @@
         "attackspeedperlevel": 2.5,
         "attackspeed": 0.658
       },
-      "lore": "迅捷斥候 提莫，峡谷经典竞技英雄，擅长于TOP/SUPPORT作战。",
+      "lore": "迅捷斥候 提莫，峡谷经典竞技英雄，擅长于TOP/MID/SUPPORT作战。",
       "passive": {
         "name": "固有被动能力",
         "description": "迅捷斥候 拥有专属被动战斗机制。",

@@ -8,7 +8,7 @@
       "key": "85",
       "name": "MissFortune",
       "title": "厄运小姐",
-      "blurb": "赏金猎人 厄运小姐，峡谷经典竞技英雄，擅长于BOTTOM作战。",
+      "blurb": "赏金猎人 厄运小姐，峡谷经典竞技英雄，擅长于BOTTOM/SUPPORT作战。",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -29,7 +29,8 @@
       ],
       "partype": "法力",
       "lanes": [
-        "BOTTOM"
+        "BOTTOM",
+        "SUPPORT"
       ],
       "stats": {
         "hp": 600,
@@ -53,7 +54,7 @@
         "attackspeedperlevel": 2.5,
         "attackspeed": 0.658
       },
-      "lore": "赏金猎人 厄运小姐，峡谷经典竞技英雄，擅长于BOTTOM作战。",
+      "lore": "赏金猎人 厄运小姐，峡谷经典竞技英雄，擅长于BOTTOM/SUPPORT作战。",
       "passive": {
         "name": "固有被动能力",
         "description": "赏金猎人 拥有专属被动战斗机制。",

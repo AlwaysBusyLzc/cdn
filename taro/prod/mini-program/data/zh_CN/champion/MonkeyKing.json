@@ -8,7 +8,7 @@
       "key": "86",
       "name": "齐天大圣",
       "title": "孙悟空",
-      "blurb": "齐天大圣 孙悟空，峡谷经典竞技英雄，擅长于JUNGLE/TOP作战。",
+      "blurb": "齐天大圣 孙悟空，峡谷经典竞技英雄，擅长于TOP/JUNGLE作战。",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -25,13 +25,13 @@
         "h": 48
       },
       "tags": [
-        "Assassin",
-        "Fighter"
+        "Fighter",
+        "Tank"
       ],
       "partype": "法力",
       "lanes": [
-        "JUNGLE",
-        "TOP"
+        "TOP",
+        "JUNGLE"
       ],
       "stats": {
         "hp": 600,
@@ -55,7 +55,7 @@
         "attackspeedperlevel": 2.5,
         "attackspeed": 0.658
       },
-      "lore": "齐天大圣 孙悟空，峡谷经典竞技英雄，擅长于JUNGLE/TOP作战。",
+      "lore": "齐天大圣 孙悟空，峡谷经典竞技英雄，擅长于TOP/JUNGLE作战。",
       "passive": {
         "name": "固有被动能力",
         "description": "齐天大圣 拥有专属被动战斗机制。",

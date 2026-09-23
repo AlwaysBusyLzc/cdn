@@ -8,7 +8,7 @@
       "key": "137",
       "name": "Taric",
       "title": "塔里克",
-      "blurb": "瓦罗兰之盾 塔里克，峡谷经典竞技英雄，擅长于SUPPORT/JUNGLE作战。",
+      "blurb": "瓦罗兰之盾 塔里克，峡谷经典竞技英雄，擅长于SUPPORT作战。",
       "info": {
         "attack": 6,
         "defense": 5,
@@ -30,8 +30,7 @@
       ],
       "partype": "法力",
       "lanes": [
-        "SUPPORT",
-        "JUNGLE"
+        "SUPPORT"
       ],
       "stats": {
         "hp": 600,
@@ -55,7 +54,7 @@
         "attackspeedperlevel": 2.5,
         "attackspeed": 0.658
       },
-      "lore": "瓦罗兰之盾 塔里克，峡谷经典竞技英雄，擅长于SUPPORT/JUNGLE作战。",
+      "lore": "瓦罗兰之盾 塔里克，峡谷经典竞技英雄，擅长于SUPPORT作战。",
       "passive": {
         "name": "固有被动能力",
         "description": "瓦罗兰之盾 拥有专属被动战斗机制。",
