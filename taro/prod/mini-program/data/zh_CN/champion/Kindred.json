@@ -1,0 +1,234 @@
+{
+  "type": "champion",
+  "format": "standAloneComplex",
+  "version": "16.18.1",
+  "data": {
+    "Kindred": {
+      "id": "Kindred",
+      "key": "66",
+      "name": "永猎双子",
+      "title": "千珏",
+      "blurb": "永猎双子 千珏，峡谷经典竞技英雄，擅长于JUNGLE/BOTTOM作战。",
+      "info": {
+        "attack": 6,
+        "defense": 5,
+        "magic": 5,
+        "difficulty": 5
+      },
+      "image": {
+        "full": "Kindred.png",
+        "sprite": "champion0.png",
+        "group": "champion",
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      },
+      "tags": [
+        "Assassin",
+        "Fighter"
+      ],
+      "partype": "法力",
+      "lanes": [
+        "JUNGLE",
+        "BOTTOM"
+      ],
+      "stats": {
+        "hp": 600,
+        "hpperlevel": 100,
+        "mp": 350,
+        "mpperlevel": 30,
+        "movespeed": 335,
+        "armor": 30,
+        "armorperlevel": 4.5,
+        "spellblock": 30,
+        "spellblockperlevel": 1.5,
+        "attackrange": 175,
+        "hpregen": 6,
+        "hpregenperlevel": 0.75,
+        "mpregen": 7,
+        "mpregenperlevel": 0.7,
+        "crit": 0,
+        "critperlevel": 0,
+        "attackdamage": 60,
+        "attackdamageperlevel": 3.5,
+        "attackspeedperlevel": 2.5,
+        "attackspeed": 0.658
+      },
+      "lore": "永猎双子 千珏，峡谷经典竞技英雄，擅长于JUNGLE/BOTTOM作战。",
+      "passive": {
+        "name": "固有被动能力",
+        "description": "永猎双子 拥有专属被动战斗机制。",
+        "image": {
+          "full": "Kindred_Passive.png",
+          "sprite": "passive0.png",
+          "group": "passive",
+          "x": 0,
+          "y": 0,
+          "w": 48,
+          "h": 48
+        }
+      },
+      "spells": [
+        {
+          "id": "KindredQ",
+          "name": "Q 技能",
+          "description": "TOTALQATTACKSPEED: 0.35 | TOTALDAMAGE: 40/65/90/115/140 (+75% AD) | DASHSPEED: 500 | DASHSPEEDSCALING: 12 | BASEASDURATION: 4 | CDNEWVALUE: 4/3.5/3/2.5/2 | BASEDAMAGE: 40/65/90/115/140 | BASEBONUSAS: 0.35",
+          "tooltip": "永猎双子 施放 Q 技能对目标区域或敌人造成战术影响。",
+          "maxrank": 5,
+          "cooldown": [
+            12,
+            10,
+            8,
+            6,
+            4
+          ],
+          "cooldownBurn": "12/10/8/6/4",
+          "cost": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "costBurn": "50/60/70/80/90",
+          "costType": "法力",
+          "effectBurn": [
+            "",
+            "100/150/200/250/300"
+          ],
+          "vars": [],
+          "image": {
+            "full": "KindredQ.png",
+            "sprite": "spell0.png",
+            "group": "spell",
+            "x": 0,
+            "y": 0,
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "id": "KindredW",
+          "name": "W 技能",
+          "description": "BASEWOLFDAMAGE: 25/30/35/40/45 (+20% AD) (+20% AP) | PERCENTWOLFDAMAGE: 0.015 | LAMBTOWOLFATTACKSPEEDCONVERSIONPERCENT: 0.25 | RINGRANGE: 800 | APRATIO: 0.2 | CLONEBASEPERCENTDAMAGE: 0.015 | CLONEDAMAGEFLAT: 25/30/35/40/45 | CLONEADRATIO: 0.2 | CLONEPERCENTDAMAGEPERBOUNTY: 0.01 | BASECURRENTHEALTHDAMAGE: 1.5 | ZONEDURATION: 8.5 | MONSTERBONUSDMG: 0.5 | MONSTERSLOWAMOUNT: 0.5",
+          "tooltip": "永猎双子 施放 W 技能对目标区域或敌人造成战术影响。",
+          "maxrank": 5,
+          "cooldown": [
+            12,
+            10,
+            8,
+            6,
+            4
+          ],
+          "cooldownBurn": "12/10/8/6/4",
+          "cost": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "costBurn": "50/60/70/80/90",
+          "costType": "法力",
+          "effectBurn": [
+            "",
+            "100/150/200/250/300"
+          ],
+          "vars": [],
+          "image": {
+            "full": "KindredW.png",
+            "sprite": "spell0.png",
+            "group": "spell",
+            "x": 48,
+            "y": 0,
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "id": "KindredE",
+          "name": "E 技能",
+          "description": "永猎双子 的核心战斗技能【E】。",
+          "tooltip": "永猎双子 施放 E 技能对目标区域或敌人造成战术影响。",
+          "maxrank": 5,
+          "cooldown": [
+            12,
+            10,
+            8,
+            6,
+            4
+          ],
+          "cooldownBurn": "12/10/8/6/4",
+          "cost": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "costBurn": "50/60/70/80/90",
+          "costType": "法力",
+          "effectBurn": [
+            "",
+            "100/150/200/250/300"
+          ],
+          "vars": [],
+          "image": {
+            "full": "KindredE.png",
+            "sprite": "spell0.png",
+            "group": "spell",
+            "x": 96,
+            "y": 0,
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "id": "KindredR",
+          "name": "R 技能",
+          "description": "HEALFLAT: 225/300/375/450/525 | BUFFDURATION: 4 | AOERADIUS: 530",
+          "tooltip": "永猎双子 施放 R 技能对目标区域或敌人造成战术影响。",
+          "maxrank": 3,
+          "cooldown": [
+            120,
+            100,
+            80
+          ],
+          "cooldownBurn": "120/100/80",
+          "cost": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "costBurn": "50/60/70/80/90",
+          "costType": "法力",
+          "effectBurn": [
+            "",
+            "100/150/200/250/300"
+          ],
+          "vars": [],
+          "image": {
+            "full": "KindredR.png",
+            "sprite": "spell0.png",
+            "group": "spell",
+            "x": 144,
+            "y": 0,
+            "w": 48,
+            "h": 48
+          }
+        }
+      ],
+      "allytips": [
+        "熟练掌握 永猎双子 的技能连招顺序与换血节奏。",
+        "在优势时积极游走支援边路，扩大团队经济优势。"
+      ],
+      "enemytips": [
+        "注意在对线期规避 永猎双子 的核心控制与爆发技能。",
+        "保持安全距离，在其关键技能进入冷却期间组织反击。"
+      ]
+    }
+  }
+}

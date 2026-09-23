@@ -1,0 +1,233 @@
+{
+  "type": "champion",
+  "format": "standAloneComplex",
+  "version": "16.18.1",
+  "data": {
+    "Urgot": {
+      "id": "Urgot",
+      "key": "146",
+      "name": "Urgot",
+      "title": "厄加特",
+      "blurb": "无畏战车 厄加特，峡谷经典竞技英雄，擅长于TOP作战。",
+      "info": {
+        "attack": 6,
+        "defense": 5,
+        "magic": 5,
+        "difficulty": 5
+      },
+      "image": {
+        "full": "Urgot.png",
+        "sprite": "champion0.png",
+        "group": "champion",
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      },
+      "tags": [
+        "Fighter",
+        "Tank"
+      ],
+      "partype": "法力",
+      "lanes": [
+        "TOP"
+      ],
+      "stats": {
+        "hp": 600,
+        "hpperlevel": 100,
+        "mp": 350,
+        "mpperlevel": 30,
+        "movespeed": 335,
+        "armor": 30,
+        "armorperlevel": 4.5,
+        "spellblock": 30,
+        "spellblockperlevel": 1.5,
+        "attackrange": 175,
+        "hpregen": 6,
+        "hpregenperlevel": 0.75,
+        "mpregen": 7,
+        "mpregenperlevel": 0.7,
+        "crit": 0,
+        "critperlevel": 0,
+        "attackdamage": 60,
+        "attackdamageperlevel": 3.5,
+        "attackspeedperlevel": 2.5,
+        "attackspeed": 0.658
+      },
+      "lore": "无畏战车 厄加特，峡谷经典竞技英雄，擅长于TOP作战。",
+      "passive": {
+        "name": "固有被动能力",
+        "description": "无畏战车 拥有专属被动战斗机制。",
+        "image": {
+          "full": "Urgot_Passive.png",
+          "sprite": "passive0.png",
+          "group": "passive",
+          "x": 0,
+          "y": 0,
+          "w": 48,
+          "h": 48
+        }
+      },
+      "spells": [
+        {
+          "id": "UrgotQ",
+          "name": "Q 技能",
+          "description": "TOTALDAMAGE: 25/70/115/160/205 (+70% AD) | SLOWDURATION: 1.25 | SLOWAMOUNT: 0.45/0.5/0.55/0.6/0.65 | BASEDAMAGE: 25/70/115/160/205 | EXPLOSIONDELAYPOSTMISSILE: 0.3 | DELAYONMISSILELAUNCH: 0.1 | WHALTERDURATION: 0.3 | AOERADIUS: 210",
+          "tooltip": "无畏战车 施放 Q 技能对目标区域或敌人造成战术影响。",
+          "maxrank": 5,
+          "cooldown": [
+            12,
+            10,
+            8,
+            6,
+            4
+          ],
+          "cooldownBurn": "12/10/8/6/4",
+          "cost": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "costBurn": "50/60/70/80/90",
+          "costType": "法力",
+          "effectBurn": [
+            "",
+            "100/150/200/250/300"
+          ],
+          "vars": [],
+          "image": {
+            "full": "UrgotQ.png",
+            "sprite": "spell0.png",
+            "group": "spell",
+            "x": 0,
+            "y": 0,
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "id": "UrgotW",
+          "name": "W 技能",
+          "description": "DAMAGEPERSHOT: 12 (+20/23.5/27/30.5/34% AD) | RANGECHECK: (+100% AP) | ADRATIOTT: 0.2/0.235/0.27/0.305/0.34 | ONHITDAMAGEREDUCTION: 0.5 | WATTACKSPERSECOND: 3 | BASEDAMAGE: 12 | MINIONMINIMUMDAMAGE: 50 | SLOWRESISTANCE: 40 | DURATION: 4/4/4/4/25000 | MOVESPEEDMOD: 125 | MOVESPEEDDURATION: 0.5",
+          "tooltip": "无畏战车 施放 W 技能对目标区域或敌人造成战术影响。",
+          "maxrank": 5,
+          "cooldown": [
+            12,
+            10,
+            8,
+            6,
+            4
+          ],
+          "cooldownBurn": "12/10/8/6/4",
+          "cost": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "costBurn": "50/60/70/80/90",
+          "costType": "法力",
+          "effectBurn": [
+            "",
+            "100/150/200/250/300"
+          ],
+          "vars": [],
+          "image": {
+            "full": "UrgotW.png",
+            "sprite": "spell0.png",
+            "group": "spell",
+            "x": 48,
+            "y": 0,
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "id": "UrgotE",
+          "name": "E 技能",
+          "description": "ETOTALSHIELDHEALTH: 55/75/95/115/135 (+135% AD) (+13.5% AP) | EDAMAGE: 90/120/150/180/210 (+100% AD) | ESHIELDDURATION: 4 | ESHIELDBASEHEALTH: 55/75/95/115/135 | ESHIELDBADRATIO: 1.35 | EBASEDAMAGE: 90/120/150/180/210 | ESHIELDBONUSHEALTHRATIO: 0.135 | STUNDURATION: 1.5 | BASEDASHSPEED: 1200 | MINIMUMDASHRANGE: 450 | THROWDISTANCE: 100 | WHALTERDURATION: 1.5",
+          "tooltip": "无畏战车 施放 E 技能对目标区域或敌人造成战术影响。",
+          "maxrank": 5,
+          "cooldown": [
+            12,
+            10,
+            8,
+            6,
+            4
+          ],
+          "cooldownBurn": "12/10/8/6/4",
+          "cost": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "costBurn": "50/60/70/80/90",
+          "costType": "法力",
+          "effectBurn": [
+            "",
+            "100/150/200/250/300"
+          ],
+          "vars": [],
+          "image": {
+            "full": "UrgotE.png",
+            "sprite": "spell0.png",
+            "group": "spell",
+            "x": 96,
+            "y": 0,
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "id": "UrgotR",
+          "name": "R 技能",
+          "description": "RCALCULATEDDAMAGE: 100/225/350/475/600 (+50% AD) | RBASEDAMAGE: 100/225/350/475/600 | RBONUSADRATIO: 0.5 | RMOVESPEEDMOD: 75 | RSLOWDURATION: 4 | RSLOWMULTIPLIER: 1 | RFEARDURATION: 1.5 | RHEALTHTHRESHOLD: 25 | RCHANNELTIMEREEL: 1 | RFEARRADIUS: 600",
+          "tooltip": "无畏战车 施放 R 技能对目标区域或敌人造成战术影响。",
+          "maxrank": 3,
+          "cooldown": [
+            120,
+            100,
+            80
+          ],
+          "cooldownBurn": "120/100/80",
+          "cost": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "costBurn": "50/60/70/80/90",
+          "costType": "法力",
+          "effectBurn": [
+            "",
+            "100/150/200/250/300"
+          ],
+          "vars": [],
+          "image": {
+            "full": "UrgotR.png",
+            "sprite": "spell0.png",
+            "group": "spell",
+            "x": 144,
+            "y": 0,
+            "w": 48,
+            "h": 48
+          }
+        }
+      ],
+      "allytips": [
+        "熟练掌握 无畏战车 的技能连招顺序与换血节奏。",
+        "在优势时积极游走支援边路，扩大团队经济优势。"
+      ],
+      "enemytips": [
+        "注意在对线期规避 无畏战车 的核心控制与爆发技能。",
+        "保持安全距离，在其关键技能进入冷却期间组织反击。"
+      ]
+    }
+  }
+}

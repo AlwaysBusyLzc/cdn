@@ -1,0 +1,234 @@
+{
+  "type": "champion",
+  "format": "standAloneComplex",
+  "version": "16.18.1",
+  "data": {
+    "Camille": {
+      "id": "Camille",
+      "key": "22",
+      "name": "Camille",
+      "title": "卡蜜尔",
+      "blurb": "青钢影 卡蜜尔，峡谷经典竞技英雄，擅长于TOP/SUPPORT作战。",
+      "info": {
+        "attack": 6,
+        "defense": 5,
+        "magic": 5,
+        "difficulty": 5
+      },
+      "image": {
+        "full": "Camille.png",
+        "sprite": "champion0.png",
+        "group": "champion",
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      },
+      "tags": [
+        "Fighter",
+        "Tank"
+      ],
+      "partype": "法力",
+      "lanes": [
+        "TOP",
+        "SUPPORT"
+      ],
+      "stats": {
+        "hp": 600,
+        "hpperlevel": 100,
+        "mp": 350,
+        "mpperlevel": 30,
+        "movespeed": 335,
+        "armor": 30,
+        "armorperlevel": 4.5,
+        "spellblock": 30,
+        "spellblockperlevel": 1.5,
+        "attackrange": 175,
+        "hpregen": 6,
+        "hpregenperlevel": 0.75,
+        "mpregen": 7,
+        "mpregenperlevel": 0.7,
+        "crit": 0,
+        "critperlevel": 0,
+        "attackdamage": 60,
+        "attackdamageperlevel": 3.5,
+        "attackspeedperlevel": 2.5,
+        "attackspeed": 0.658
+      },
+      "lore": "青钢影 卡蜜尔，峡谷经典竞技英雄，擅长于TOP/SUPPORT作战。",
+      "passive": {
+        "name": "固有被动能力",
+        "description": "青钢影 拥有专属被动战斗机制。",
+        "image": {
+          "full": "Camille_Passive.png",
+          "sprite": "passive0.png",
+          "group": "passive",
+          "x": 0,
+          "y": 0,
+          "w": 48,
+          "h": 48
+        }
+      },
+      "spells": [
+        {
+          "id": "CamilleQ",
+          "name": "Q 技能",
+          "description": "BONUSDAMAGE: (+20/25/30/35/40% AD) | QRAMPUPTIME: 1.5 | BONUSAARANGE: 50 | TADRATIO: 0.2/0.25/0.3/0.35/0.4 | MSBONUS: 0.25/0.3/0.35/0.4/0.45 | MSDURATION: 1 | QEMPOWEREDAMP: 2 | Q2DURATION: 2 | QTOTALRECASTTIME: 3.5",
+          "tooltip": "青钢影 施放 Q 技能对目标区域或敌人造成战术影响。",
+          "maxrank": 5,
+          "cooldown": [
+            12,
+            10,
+            8,
+            6,
+            4
+          ],
+          "cooldownBurn": "12/10/8/6/4",
+          "cost": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "costBurn": "50/60/70/80/90",
+          "costType": "法力",
+          "effectBurn": [
+            "",
+            "100/150/200/250/300"
+          ],
+          "vars": [],
+          "image": {
+            "full": "CamilleQ.png",
+            "sprite": "spell0.png",
+            "group": "spell",
+            "x": 0,
+            "y": 0,
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "id": "CamilleW",
+          "name": "W 技能",
+          "description": "OUTEREDGETOOLTIP: 0.07/0.075/0.08/0.085/0.09 (+0.025% AD) | BASEDAMAGETOTAL: 60/85/110/135/160 (+60% AD) | BASEDAMAGE: 60/85/110/135/160 | BADRATIO: 0.6 | SLOWDURATION: 2 | CHARGEDURATION: 0.75 | SLOWPERCENTAGE: 80 | OUTERCONEMAXHPDAMAGE: 0.07/0.075/0.08/0.085/0.09 | ADREQUIREDFOR1PERCENTDAMAGE: 40 | ADREQUIREDTOOLTIPONLY: 0 | MONSTERDAMAGEREDUCTION: 50 | OUTERCONEHEALINGRATIO: 100 | BLASTLENGTH: 650 | CONEANGLE: 35",
+          "tooltip": "青钢影 施放 W 技能对目标区域或敌人造成战术影响。",
+          "maxrank": 5,
+          "cooldown": [
+            12,
+            10,
+            8,
+            6,
+            4
+          ],
+          "cooldownBurn": "12/10/8/6/4",
+          "cost": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "costBurn": "50/60/70/80/90",
+          "costType": "法力",
+          "effectBurn": [
+            "",
+            "100/150/200/250/300"
+          ],
+          "vars": [],
+          "image": {
+            "full": "CamilleW.png",
+            "sprite": "spell0.png",
+            "group": "spell",
+            "x": 48,
+            "y": 0,
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "id": "CamilleE",
+          "name": "E 技能",
+          "description": "TOTALDAMAGE: 60/90/120/150/180 (+75% AD) | EMINIONMONSTERGHOSTDURATION: 3 | KNOCKUPDURATION: 0.75 | ASBUFF: 0.4/0.45/0.5/0.55/0.6 | BASEDAMAGE: 60/90/120/150/180 | DASHSPEED: 1050 | ASDURATION: 5 | WALLHANGDURATION: 1 | E2LONGDASHRANGE: 800 | E2SHORTDASHRANGE: 400 | ECOLLISIONRANGE: 130 | BADRATIO: 0.75",
+          "tooltip": "青钢影 施放 E 技能对目标区域或敌人造成战术影响。",
+          "maxrank": 5,
+          "cooldown": [
+            12,
+            10,
+            8,
+            6,
+            4
+          ],
+          "cooldownBurn": "12/10/8/6/4",
+          "cost": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "costBurn": "50/60/70/80/90",
+          "costType": "法力",
+          "effectBurn": [
+            "",
+            "100/150/200/250/300"
+          ],
+          "vars": [],
+          "image": {
+            "full": "CamilleE.png",
+            "sprite": "spell0.png",
+            "group": "spell",
+            "x": 96,
+            "y": 0,
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "id": "CamilleR",
+          "name": "R 技能",
+          "description": "RPERCENTCURRENTHPDAMAGE: 4/6/8/10/12 | RDURATION: 2.5/3.25/4/4.75/5.5 | RCIRCLERADIUS: 425",
+          "tooltip": "青钢影 施放 R 技能对目标区域或敌人造成战术影响。",
+          "maxrank": 3,
+          "cooldown": [
+            120,
+            100,
+            80
+          ],
+          "cooldownBurn": "120/100/80",
+          "cost": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "costBurn": "50/60/70/80/90",
+          "costType": "法力",
+          "effectBurn": [
+            "",
+            "100/150/200/250/300"
+          ],
+          "vars": [],
+          "image": {
+            "full": "CamilleR.png",
+            "sprite": "spell0.png",
+            "group": "spell",
+            "x": 144,
+            "y": 0,
+            "w": 48,
+            "h": 48
+          }
+        }
+      ],
+      "allytips": [
+        "熟练掌握 青钢影 的技能连招顺序与换血节奏。",
+        "在优势时积极游走支援边路，扩大团队经济优势。"
+      ],
+      "enemytips": [
+        "注意在对线期规避 青钢影 的核心控制与爆发技能。",
+        "保持安全距离，在其关键技能进入冷却期间组织反击。"
+      ]
+    }
+  }
+}

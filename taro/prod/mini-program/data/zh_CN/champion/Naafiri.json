@@ -1,0 +1,234 @@
+{
+  "type": "champion",
+  "format": "standAloneComplex",
+  "version": "16.18.1",
+  "data": {
+    "Naafiri": {
+      "id": "Naafiri",
+      "key": "89",
+      "name": "百裂冥犬",
+      "title": "纳亚菲利",
+      "blurb": "百裂冥犬 纳亚菲利，峡谷经典竞技英雄，擅长于MID/JUNGLE作战。",
+      "info": {
+        "attack": 6,
+        "defense": 5,
+        "magic": 5,
+        "difficulty": 5
+      },
+      "image": {
+        "full": "Naafiri.png",
+        "sprite": "champion0.png",
+        "group": "champion",
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      },
+      "tags": [
+        "Mage",
+        "Assassin"
+      ],
+      "partype": "法力",
+      "lanes": [
+        "MID",
+        "JUNGLE"
+      ],
+      "stats": {
+        "hp": 600,
+        "hpperlevel": 100,
+        "mp": 350,
+        "mpperlevel": 30,
+        "movespeed": 335,
+        "armor": 30,
+        "armorperlevel": 4.5,
+        "spellblock": 30,
+        "spellblockperlevel": 1.5,
+        "attackrange": 175,
+        "hpregen": 6,
+        "hpregenperlevel": 0.75,
+        "mpregen": 7,
+        "mpregenperlevel": 0.7,
+        "crit": 0,
+        "critperlevel": 0,
+        "attackdamage": 60,
+        "attackdamageperlevel": 3.5,
+        "attackspeedperlevel": 2.5,
+        "attackspeed": 0.658
+      },
+      "lore": "百裂冥犬 纳亚菲利，峡谷经典竞技英雄，擅长于MID/JUNGLE作战。",
+      "passive": {
+        "name": "固有被动能力",
+        "description": "百裂冥犬 拥有专属被动战斗机制。",
+        "image": {
+          "full": "Icons_Naafiri_P.png",
+          "sprite": "passive0.png",
+          "group": "passive",
+          "x": 0,
+          "y": 0,
+          "w": 48,
+          "h": 48
+        }
+      },
+      "spells": [
+        {
+          "id": "NaafiriQ",
+          "name": "Q 技能",
+          "description": "TOTALDAMAGEFIRSTCAST: 35/40/45/50/55 (+20% AD) | TOTALMINDAMAGESECONDCAST: 30/42.5/55/67.5/80 (+40% AD) | TOTALHEALSECONDCAST: 45/60/75/90/105 (+40% AD) | TOTALBLEEDDAMAGE: 35/60/85/110/135 (+80% AD) | TOTALMAXDAMAGESECONDCAST: 30/42.5/55/67.5/80 (+70% AD) | BASEDAMAGEFIRSTCAST: 35/40/45/50/55 | BASEDAMAGESECONDCAST: 30/42.5/55/67.5/80 | BLEEDBASEDAMAGE: 35/60/85/110/135 | BLEEDINTERVAL: 0.5 | RECASTWINDOW: 4 | RECASTLOCKOUT: 0.75 | BASEHEALSECONDCAST: 45/60/75/90/105 | BLEEDDURATION: 5 | EXECUTEMULTIPLIER: 2 | MINIONMOD: 1 | FIRSTCASTBONUSADRATIO: 0.2 | SECONDCASTBONUSADRATIO: 0.4 | BLEEDBONUSADRATIO: 0.8 | HEALBONUSADRATIO: 0.4 | SECONDCASTMAXADRATIO: 0.7",
+          "tooltip": "百裂冥犬 施放 Q 技能对目标区域或敌人造成战术影响。",
+          "maxrank": 5,
+          "cooldown": [
+            12,
+            10,
+            8,
+            6,
+            4
+          ],
+          "cooldownBurn": "12/10/8/6/4",
+          "cost": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "costBurn": "50/60/70/80/90",
+          "costType": "法力",
+          "effectBurn": [
+            "",
+            "100/150/200/250/300"
+          ],
+          "vars": [],
+          "image": {
+            "full": "NaafiriQ.png",
+            "sprite": "spell0.png",
+            "group": "spell",
+            "x": 0,
+            "y": 0,
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "id": "NaafiriW",
+          "name": "W 技能",
+          "description": "TOTALDAMAGE: 125/200/275/350/425 (+100% AD) | SHIELDTOTAL: 100/150/200/250/300 (+150% AD) | BASEDAMAGE: 125/200/275/350/425 | DASHSPEED: 1800 | SLOWDURATION: 0.25 | SLOWPERCENT: -0.99 | PACKMATEMODIFIER: 0.1 | FAILCASTCDREFUND: 0.5 | SHREDDURATION: 3 | TAKEDOWNWINDOW: 7 | RECASTWINDOW: 12 | SHIELDDURATION: 3 | SHIELDSIZE: 100/150/200/250/300 | VISIONDURATION: 4 | VISIONPULSEDURATION: 1 | VISIONRADIUS: 2100 | WREFRESHONCAST: 1.75",
+          "tooltip": "百裂冥犬 施放 W 技能对目标区域或敌人造成战术影响。",
+          "maxrank": 5,
+          "cooldown": [
+            12,
+            10,
+            8,
+            6,
+            4
+          ],
+          "cooldownBurn": "12/10/8/6/4",
+          "cost": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "costBurn": "50/60/70/80/90",
+          "costType": "法力",
+          "effectBurn": [
+            "",
+            "100/150/200/250/300"
+          ],
+          "vars": [],
+          "image": {
+            "full": "NaafiriW.png",
+            "sprite": "spell0.png",
+            "group": "spell",
+            "x": 48,
+            "y": 0,
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "id": "NaafiriE",
+          "name": "E 技能",
+          "description": "TOTALDAMAGEFIRSTSLASH: 15/25/35/45/55 (+40% AD) | TOTALDAMAGESECONDSLASH: 60/85/110/135/160 (+80% AD) | BASEDAMAGEFIRSTSLASH: 15/25/35/45/55 | ADRATIOFIRSTSLASH: 0.4 | BASEDAMAGESECONDHIT: 60/85/110/135/160 | ADRATIOSECONDHIT: 0.8 | RADIUSSECONDSLASH: 230 | DASHDISTANCE: 450 | DASHSPEED: 900 | MAXDASHCHEATDISTANCE: 650 | MINDASHDISTANCE: 250",
+          "tooltip": "百裂冥犬 施放 E 技能对目标区域或敌人造成战术影响。",
+          "maxrank": 5,
+          "cooldown": [
+            12,
+            10,
+            8,
+            6,
+            4
+          ],
+          "cooldownBurn": "12/10/8/6/4",
+          "cost": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "costBurn": "50/60/70/80/90",
+          "costType": "法力",
+          "effectBurn": [
+            "",
+            "100/150/200/250/300"
+          ],
+          "vars": [],
+          "image": {
+            "full": "NaafiriE.png",
+            "sprite": "spell0.png",
+            "group": "spell",
+            "x": 96,
+            "y": 0,
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "id": "NaafiriR",
+          "name": "R 技能",
+          "description": "BONUSAD: (+20% AD) | PACKMATESTOADD: 2 | DURATION: 5 | MOVESPEEDAMOUNT: 0.2/0.225/0.25/0.275/0.3 | MOVESPEEDDURATION: 5 | PACKMATESPAWNRATEINCREASE: 0.5 | NAAFIRIADPERCENTBOOST: 0.2 | UNTARGETABLEDURATION: 1",
+          "tooltip": "百裂冥犬 施放 R 技能对目标区域或敌人造成战术影响。",
+          "maxrank": 3,
+          "cooldown": [
+            120,
+            100,
+            80
+          ],
+          "cooldownBurn": "120/100/80",
+          "cost": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "costBurn": "50/60/70/80/90",
+          "costType": "法力",
+          "effectBurn": [
+            "",
+            "100/150/200/250/300"
+          ],
+          "vars": [],
+          "image": {
+            "full": "NaafiriR.png",
+            "sprite": "spell0.png",
+            "group": "spell",
+            "x": 144,
+            "y": 0,
+            "w": 48,
+            "h": 48
+          }
+        }
+      ],
+      "allytips": [
+        "熟练掌握 百裂冥犬 的技能连招顺序与换血节奏。",
+        "在优势时积极游走支援边路，扩大团队经济优势。"
+      ],
+      "enemytips": [
+        "注意在对线期规避 百裂冥犬 的核心控制与爆发技能。",
+        "保持安全距离，在其关键技能进入冷却期间组织反击。"
+      ]
+    }
+  }
+}

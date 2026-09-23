@@ -1,0 +1,234 @@
+{
+  "type": "champion",
+  "format": "standAloneComplex",
+  "version": "16.18.1",
+  "data": {
+    "TahmKench": {
+      "id": "TahmKench",
+      "key": "134",
+      "name": "TahmKench",
+      "title": "塔姆·肯奇",
+      "blurb": "河流之王 塔姆·肯奇，峡谷经典竞技英雄，擅长于TOP/SUPPORT作战。",
+      "info": {
+        "attack": 6,
+        "defense": 5,
+        "magic": 5,
+        "difficulty": 5
+      },
+      "image": {
+        "full": "TahmKench.png",
+        "sprite": "champion0.png",
+        "group": "champion",
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      },
+      "tags": [
+        "Fighter",
+        "Tank"
+      ],
+      "partype": "法力",
+      "lanes": [
+        "TOP",
+        "SUPPORT"
+      ],
+      "stats": {
+        "hp": 600,
+        "hpperlevel": 100,
+        "mp": 350,
+        "mpperlevel": 30,
+        "movespeed": 335,
+        "armor": 30,
+        "armorperlevel": 4.5,
+        "spellblock": 30,
+        "spellblockperlevel": 1.5,
+        "attackrange": 175,
+        "hpregen": 6,
+        "hpregenperlevel": 0.75,
+        "mpregen": 7,
+        "mpregenperlevel": 0.7,
+        "crit": 0,
+        "critperlevel": 0,
+        "attackdamage": 60,
+        "attackdamageperlevel": 3.5,
+        "attackspeedperlevel": 2.5,
+        "attackspeed": 0.658
+      },
+      "lore": "河流之王 塔姆·肯奇，峡谷经典竞技英雄，擅长于TOP/SUPPORT作战。",
+      "passive": {
+        "name": "固有被动能力",
+        "description": "河流之王 拥有专属被动战斗机制。",
+        "image": {
+          "full": "TahmKenchP.png",
+          "sprite": "passive0.png",
+          "group": "passive",
+          "x": 0,
+          "y": 0,
+          "w": 48,
+          "h": 48
+        }
+      },
+      "spells": [
+        {
+          "id": "TahmKenchQ",
+          "name": "Q 技能",
+          "description": "TOTALDAMAGE: 75/120/165/210/255 (+100% AP) | BASEDAMAGE: 75/120/165/210/255 | SLOWAMOUNT: 0.5 | SLOWDURATION: 2 | STUNDURATION: 1.5 | PERCENTHEALTHHEALING: 0.05/0.055/0.06/0.065/0.07 | BASEHEAL: 10/15/20/25/30",
+          "tooltip": "河流之王 施放 Q 技能对目标区域或敌人造成战术影响。",
+          "maxrank": 5,
+          "cooldown": [
+            12,
+            10,
+            8,
+            6,
+            4
+          ],
+          "cooldownBurn": "12/10/8/6/4",
+          "cost": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "costBurn": "50/60/70/80/90",
+          "costType": "法力",
+          "effectBurn": [
+            "",
+            "100/150/200/250/300"
+          ],
+          "vars": [],
+          "image": {
+            "full": "TahmKenchQ.png",
+            "sprite": "spell0.png",
+            "group": "spell",
+            "x": 0,
+            "y": 0,
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "id": "TahmKenchW",
+          "name": "W 技能",
+          "description": "TOTALDAMAGE: 100/135/170/205/240 (+150% AP) | BASEDAMAGE: 100/135/170/205/240 | KNOCKUPDURATION: 1 | AOEDELAYFROMCHANNELSTART: 1.5 | TOTALTIME: 2 | CHANNELTIME: 1.35 | ENEMYWARNINGDELAYFROMCHANNELSTART: 0.75 | CHAMPREFUND: 0.4/0.425/0.45/0.475/0.5",
+          "tooltip": "河流之王 施放 W 技能对目标区域或敌人造成战术影响。",
+          "maxrank": 5,
+          "cooldown": [
+            12,
+            10,
+            8,
+            6,
+            4
+          ],
+          "cooldownBurn": "12/10/8/6/4",
+          "cost": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "costBurn": "50/60/70/80/90",
+          "costType": "法力",
+          "effectBurn": [
+            "",
+            "100/150/200/250/300"
+          ],
+          "vars": [],
+          "image": {
+            "full": "TahmKenchW.png",
+            "sprite": "spell0.png",
+            "group": "spell",
+            "x": 48,
+            "y": 0,
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "id": "TahmKenchE",
+          "name": "E 技能",
+          "description": "GREYHEALTHMAXIMUM: (+300% AP) | SHIELDDURATION: 2.5 | OOCTIMER: 4 | GREYHEALTHRATIO: 0.15/0.23/0.31/0.39/0.47 | MAXHPHEALRATIO: 0.1 | GREYHEALTHRATIOENHANCED: 0.42/0.44/0.46/0.48/0.5 | ENHANCEDTHRESHOLD: 2 | THRESHOLDRADIUS: 2400",
+          "tooltip": "河流之王 施放 E 技能对目标区域或敌人造成战术影响。",
+          "maxrank": 5,
+          "cooldown": [
+            12,
+            10,
+            8,
+            6,
+            4
+          ],
+          "cooldownBurn": "12/10/8/6/4",
+          "cost": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "costBurn": "50/60/70/80/90",
+          "costType": "法力",
+          "effectBurn": [
+            "",
+            "100/150/200/250/300"
+          ],
+          "vars": [],
+          "image": {
+            "full": "TahmKenchE.png",
+            "sprite": "spell0.png",
+            "group": "spell",
+            "x": 96,
+            "y": 0,
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "id": "TahmKenchR",
+          "name": "R 技能",
+          "description": "河流之王 的核心战斗技能【R】。",
+          "tooltip": "河流之王 施放 R 技能对目标区域或敌人造成战术影响。",
+          "maxrank": 3,
+          "cooldown": [
+            120,
+            100,
+            80
+          ],
+          "cooldownBurn": "120/100/80",
+          "cost": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "costBurn": "50/60/70/80/90",
+          "costType": "法力",
+          "effectBurn": [
+            "",
+            "100/150/200/250/300"
+          ],
+          "vars": [],
+          "image": {
+            "full": "TahmKenchR.png",
+            "sprite": "spell0.png",
+            "group": "spell",
+            "x": 144,
+            "y": 0,
+            "w": 48,
+            "h": 48
+          }
+        }
+      ],
+      "allytips": [
+        "熟练掌握 河流之王 的技能连招顺序与换血节奏。",
+        "在优势时积极游走支援边路，扩大团队经济优势。"
+      ],
+      "enemytips": [
+        "注意在对线期规避 河流之王 的核心控制与爆发技能。",
+        "保持安全距离，在其关键技能进入冷却期间组织反击。"
+      ]
+    }
+  }
+}

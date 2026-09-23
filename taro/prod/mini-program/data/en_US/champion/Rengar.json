@@ -1,0 +1,234 @@
+{
+  "type": "champion",
+  "format": "standAloneComplex",
+  "version": "16.18.1",
+  "data": {
+    "Rengar": {
+      "id": "Rengar",
+      "key": "112",
+      "name": "Rengar",
+      "title": "雷恩加尔",
+      "blurb": "傲之追猎者 雷恩加尔，峡谷经典竞技英雄，擅长于JUNGLE/TOP作战。",
+      "info": {
+        "attack": 6,
+        "defense": 5,
+        "magic": 5,
+        "difficulty": 5
+      },
+      "image": {
+        "full": "Rengar.png",
+        "sprite": "champion0.png",
+        "group": "champion",
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      },
+      "tags": [
+        "Assassin",
+        "Fighter"
+      ],
+      "partype": "法力",
+      "lanes": [
+        "JUNGLE",
+        "TOP"
+      ],
+      "stats": {
+        "hp": 600,
+        "hpperlevel": 100,
+        "mp": 350,
+        "mpperlevel": 30,
+        "movespeed": 335,
+        "armor": 30,
+        "armorperlevel": 4.5,
+        "spellblock": 30,
+        "spellblockperlevel": 1.5,
+        "attackrange": 175,
+        "hpregen": 6,
+        "hpregenperlevel": 0.75,
+        "mpregen": 7,
+        "mpregenperlevel": 0.7,
+        "crit": 0,
+        "critperlevel": 0,
+        "attackdamage": 60,
+        "attackdamageperlevel": 3.5,
+        "attackspeedperlevel": 2.5,
+        "attackspeed": 0.658
+      },
+      "lore": "傲之追猎者 雷恩加尔，峡谷经典竞技英雄，擅长于JUNGLE/TOP作战。",
+      "passive": {
+        "name": "固有被动能力",
+        "description": "傲之追猎者 拥有专属被动战斗机制。",
+        "image": {
+          "full": "Rengar_P.png",
+          "sprite": "passive0.png",
+          "group": "passive",
+          "x": 0,
+          "y": 0,
+          "w": 48,
+          "h": 48
+        }
+      },
+      "spells": [
+        {
+          "id": "RengarQ",
+          "name": "Q 技能",
+          "description": "QBONUSDAMAGE: 20/55/90/125/160 (+5% AD) | {D4A43ABE}: (+20% AD) | QTOTALDAMAGE: 20/55/90/125/160 (+100% AD) (+5% AD) | EMPOWEREDQTOTALDAMAGE: (+100% AD) (+20% AD) | BASEDAMAGE: 20/55/90/125/160 | BASEADRATIO: 0.05 | BASEADRATIOTOOLTIP: 5 | EMPOWEREDADRATIO: 0.2 | TOWERMOD: 0.6 | ASDURATION: 5 | ASBONUS: 40 | BUFFDURATION: 3",
+          "tooltip": "傲之追猎者 施放 Q 技能对目标区域或敌人造成战术影响。",
+          "maxrank": 5,
+          "cooldown": [
+            12,
+            10,
+            8,
+            6,
+            4
+          ],
+          "cooldownBurn": "12/10/8/6/4",
+          "cost": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "costBurn": "50/60/70/80/90",
+          "costType": "法力",
+          "effectBurn": [
+            "",
+            "100/150/200/250/300"
+          ],
+          "vars": [],
+          "image": {
+            "full": "RengarQ.png",
+            "sprite": "spell0.png",
+            "group": "spell",
+            "x": 0,
+            "y": 0,
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "id": "RengarW",
+          "name": "W 技能",
+          "description": "TOTALDAMAGE: 50/80/110/140/170 (+80% AP) | TOTALDAMAGEEMPOWERED: (+80% AP) | BASEDAMAGE: 50/80/110/140/170 | DAMAGEPERCENTAGEHEALED: 50 | APRATIO: 0.8 | EMPOWEREDAPRATIO: 0.8 | HEALINGWINDOW: 1.5 | CCIMMUNEDURATION: 1.5 | MONSTERHEALINGMOD: 100",
+          "tooltip": "傲之追猎者 施放 W 技能对目标区域或敌人造成战术影响。",
+          "maxrank": 5,
+          "cooldown": [
+            12,
+            10,
+            8,
+            6,
+            4
+          ],
+          "cooldownBurn": "12/10/8/6/4",
+          "cost": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "costBurn": "50/60/70/80/90",
+          "costType": "法力",
+          "effectBurn": [
+            "",
+            "100/150/200/250/300"
+          ],
+          "vars": [],
+          "image": {
+            "full": "RengarW.png",
+            "sprite": "spell0.png",
+            "group": "spell",
+            "x": 48,
+            "y": 0,
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "id": "RengarE",
+          "name": "E 技能",
+          "description": "TOTALDAMAGE: 55/100/145/190/235 (+80% AD) | TOTALEMPOWEREDDAMAGE: (+80% AD) | REVEALDURATION: 2 | BASEDAMAGE: 55/100/145/190/235 | SLOWAMOUNT: 30/45/60/75/90 | CCDURATION: 1.75 | BONUSADRATIO: 0.8",
+          "tooltip": "傲之追猎者 施放 E 技能对目标区域或敌人造成战术影响。",
+          "maxrank": 5,
+          "cooldown": [
+            12,
+            10,
+            8,
+            6,
+            4
+          ],
+          "cooldownBurn": "12/10/8/6/4",
+          "cost": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "costBurn": "50/60/70/80/90",
+          "costType": "法力",
+          "effectBurn": [
+            "",
+            "100/150/200/250/300"
+          ],
+          "vars": [],
+          "image": {
+            "full": "RengarE.png",
+            "sprite": "spell0.png",
+            "group": "spell",
+            "x": 96,
+            "y": 0,
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "id": "RengarR",
+          "name": "R 技能",
+          "description": "BONUSDAMAGE: (+100% AD) | STEALTHDURATION: 12/16/20/24/28 | ENEMYDETECTIONRANGE: 1600 | SELFVISIONRANGE: 2500/3000/3500/4000/4500 | SELFREVEALRANGE: 750 | STEALTHMS: 40/50/60/70/80 | FADETIME: 2 | ARMORSHRED: 15/20/25/30/35 | ARMORSHREDDURATION: 4 | LEAPRANGE: 725",
+          "tooltip": "傲之追猎者 施放 R 技能对目标区域或敌人造成战术影响。",
+          "maxrank": 3,
+          "cooldown": [
+            120,
+            100,
+            80
+          ],
+          "cooldownBurn": "120/100/80",
+          "cost": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "costBurn": "50/60/70/80/90",
+          "costType": "法力",
+          "effectBurn": [
+            "",
+            "100/150/200/250/300"
+          ],
+          "vars": [],
+          "image": {
+            "full": "RengarR.png",
+            "sprite": "spell0.png",
+            "group": "spell",
+            "x": 144,
+            "y": 0,
+            "w": 48,
+            "h": 48
+          }
+        }
+      ],
+      "allytips": [
+        "熟练掌握 傲之追猎者 的技能连招顺序与换血节奏。",
+        "在优势时积极游走支援边路，扩大团队经济优势。"
+      ],
+      "enemytips": [
+        "注意在对线期规避 傲之追猎者 的核心控制与爆发技能。",
+        "保持安全距离，在其关键技能进入冷却期间组织反击。"
+      ]
+    }
+  }
+}

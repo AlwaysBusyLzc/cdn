@@ -1,0 +1,234 @@
+{
+  "type": "champion",
+  "format": "standAloneComplex",
+  "version": "16.18.1",
+  "data": {
+    "Fiddlesticks": {
+      "id": "Fiddlesticks",
+      "key": "34",
+      "name": "远古恐惧",
+      "title": "费德提克",
+      "blurb": "远古恐惧 费德提克，峡谷经典竞技英雄，擅长于JUNGLE/SUPPORT作战。",
+      "info": {
+        "attack": 6,
+        "defense": 5,
+        "magic": 5,
+        "difficulty": 5
+      },
+      "image": {
+        "full": "Fiddlesticks.png",
+        "sprite": "champion0.png",
+        "group": "champion",
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      },
+      "tags": [
+        "Assassin",
+        "Fighter"
+      ],
+      "partype": "法力",
+      "lanes": [
+        "JUNGLE",
+        "SUPPORT"
+      ],
+      "stats": {
+        "hp": 600,
+        "hpperlevel": 100,
+        "mp": 350,
+        "mpperlevel": 30,
+        "movespeed": 335,
+        "armor": 30,
+        "armorperlevel": 4.5,
+        "spellblock": 30,
+        "spellblockperlevel": 1.5,
+        "attackrange": 175,
+        "hpregen": 6,
+        "hpregenperlevel": 0.75,
+        "mpregen": 7,
+        "mpregenperlevel": 0.7,
+        "crit": 0,
+        "critperlevel": 0,
+        "attackdamage": 60,
+        "attackdamageperlevel": 3.5,
+        "attackspeedperlevel": 2.5,
+        "attackspeed": 0.658
+      },
+      "lore": "远古恐惧 费德提克，峡谷经典竞技英雄，擅长于JUNGLE/SUPPORT作战。",
+      "passive": {
+        "name": "固有被动能力",
+        "description": "远古恐惧 拥有专属被动战斗机制。",
+        "image": {
+          "full": "FiddlesticksP.png",
+          "sprite": "passive0.png",
+          "group": "passive",
+          "x": 0,
+          "y": 0,
+          "w": 48,
+          "h": 48
+        }
+      },
+      "spells": [
+        {
+          "id": "FiddlesticksQ",
+          "name": "Q 技能",
+          "description": "TOTALPERCENTHEALTHDAMAGE: 0.04/0.045/0.05/0.055/0.06 (+0% AP) | MAXHEALTHDAMAGE: 0.04/0.045/0.05/0.055/0.06 | FEARDURATION: 1.2/1.4/1.6/1.8/2 | MINIMUMDAMAGE: 40/60/80/100/120",
+          "tooltip": "远古恐惧 施放 Q 技能对目标区域或敌人造成战术影响。",
+          "maxrank": 5,
+          "cooldown": [
+            12,
+            10,
+            8,
+            6,
+            4
+          ],
+          "cooldownBurn": "12/10/8/6/4",
+          "cost": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "costBurn": "50/60/70/80/90",
+          "costType": "法力",
+          "effectBurn": [
+            "",
+            "100/150/200/250/300"
+          ],
+          "vars": [],
+          "image": {
+            "full": "FiddlesticksQ.png",
+            "sprite": "spell0.png",
+            "group": "spell",
+            "x": 0,
+            "y": 0,
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "id": "FiddlesticksW",
+          "name": "W 技能",
+          "description": "DRAINDAMAGECALC: 60/90/120/150/180 (+45% AP) | DAMAGEPERSECOND: 60/90/120/150/180 | TICKSPERSECOND: 4 | VAMPPERCENTAGE: 25/32.5/40/47.5/55 | DRAINDURATION: 2 | DRAINLEASHRANGE: 725 | PERCENTMULTIPLIER: 0.12/0.145/0.17/0.195/0.22 | PERCENTFORTOOLTIP: 12/14.5/17/19.5/22 | MONSTERDAMAGEMOD: 1.35 | MONSTERHEALINGMOD: 0.45 | MINIONDAMAGEMOD: 0.5 | MINIONHEALINGMOD: 15 | MONSTERMAXDAMAGE: 400",
+          "tooltip": "远古恐惧 施放 W 技能对目标区域或敌人造成战术影响。",
+          "maxrank": 5,
+          "cooldown": [
+            12,
+            10,
+            8,
+            6,
+            4
+          ],
+          "cooldownBurn": "12/10/8/6/4",
+          "cost": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "costBurn": "50/60/70/80/90",
+          "costType": "法力",
+          "effectBurn": [
+            "",
+            "100/150/200/250/300"
+          ],
+          "vars": [],
+          "image": {
+            "full": "FiddlesticksW.png",
+            "sprite": "spell0.png",
+            "group": "spell",
+            "x": 48,
+            "y": 0,
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "id": "FiddlesticksE",
+          "name": "E 技能",
+          "description": "DAMAGE: 70/105/140/175/210 (+50% AP) | BASEDAMAGE: 70/105/140/175/210 | SLOWAMOUNT: -0.3/-0.35/-0.4/-0.45/-0.5 | EMPOWEREDSLOWAMOUNT: -0.5/-0.55/-0.6/-0.65/-0.7 | CASTRANGE: 850 | SILENCEDURATION: 1.25",
+          "tooltip": "远古恐惧 施放 E 技能对目标区域或敌人造成战术影响。",
+          "maxrank": 5,
+          "cooldown": [
+            12,
+            10,
+            8,
+            6,
+            4
+          ],
+          "cooldownBurn": "12/10/8/6/4",
+          "cost": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "costBurn": "50/60/70/80/90",
+          "costType": "法力",
+          "effectBurn": [
+            "",
+            "100/150/200/250/300"
+          ],
+          "vars": [],
+          "image": {
+            "full": "FiddlesticksE.png",
+            "sprite": "spell0.png",
+            "group": "spell",
+            "x": 96,
+            "y": 0,
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "id": "FiddlesticksR",
+          "name": "R 技能",
+          "description": "DAMAGEDONE: 150/250/350/450/550 (+50% AP) | APRATIOFULLDURATION: (+50% AP) | APRATIOTICK: (+50% AP) | {D0D3DB7F}: 150/250/350/450/550 (+50% AP) | DAMAGEPERSECOND: 150/250/350/450/550 | APRATIO: 0.5 | DURATION: 5 | CHANNELTIME: 1.5",
+          "tooltip": "远古恐惧 施放 R 技能对目标区域或敌人造成战术影响。",
+          "maxrank": 3,
+          "cooldown": [
+            120,
+            100,
+            80
+          ],
+          "cooldownBurn": "120/100/80",
+          "cost": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "costBurn": "50/60/70/80/90",
+          "costType": "法力",
+          "effectBurn": [
+            "",
+            "100/150/200/250/300"
+          ],
+          "vars": [],
+          "image": {
+            "full": "FiddlesticksR.png",
+            "sprite": "spell0.png",
+            "group": "spell",
+            "x": 144,
+            "y": 0,
+            "w": 48,
+            "h": 48
+          }
+        }
+      ],
+      "allytips": [
+        "熟练掌握 远古恐惧 的技能连招顺序与换血节奏。",
+        "在优势时积极游走支援边路，扩大团队经济优势。"
+      ],
+      "enemytips": [
+        "注意在对线期规避 远古恐惧 的核心控制与爆发技能。",
+        "保持安全距离，在其关键技能进入冷却期间组织反击。"
+      ]
+    }
+  }
+}

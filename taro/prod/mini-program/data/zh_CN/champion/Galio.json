@@ -1,0 +1,234 @@
+{
+  "type": "champion",
+  "format": "standAloneComplex",
+  "version": "16.18.1",
+  "data": {
+    "Galio": {
+      "id": "Galio",
+      "key": "37",
+      "name": "正义巨像",
+      "title": "加里奥",
+      "blurb": "正义巨像 加里奥，峡谷经典竞技英雄，擅长于MID/SUPPORT作战。",
+      "info": {
+        "attack": 6,
+        "defense": 5,
+        "magic": 5,
+        "difficulty": 5
+      },
+      "image": {
+        "full": "Galio.png",
+        "sprite": "champion0.png",
+        "group": "champion",
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      },
+      "tags": [
+        "Mage",
+        "Assassin"
+      ],
+      "partype": "法力",
+      "lanes": [
+        "MID",
+        "SUPPORT"
+      ],
+      "stats": {
+        "hp": 600,
+        "hpperlevel": 100,
+        "mp": 350,
+        "mpperlevel": 30,
+        "movespeed": 335,
+        "armor": 30,
+        "armorperlevel": 4.5,
+        "spellblock": 30,
+        "spellblockperlevel": 1.5,
+        "attackrange": 175,
+        "hpregen": 6,
+        "hpregenperlevel": 0.75,
+        "mpregen": 7,
+        "mpregenperlevel": 0.7,
+        "crit": 0,
+        "critperlevel": 0,
+        "attackdamage": 60,
+        "attackdamageperlevel": 3.5,
+        "attackspeedperlevel": 2.5,
+        "attackspeed": 0.658
+      },
+      "lore": "正义巨像 加里奥，峡谷经典竞技英雄，擅长于MID/SUPPORT作战。",
+      "passive": {
+        "name": "固有被动能力",
+        "description": "正义巨像 拥有专属被动战斗机制。",
+        "image": {
+          "full": "Galio_Passive.png",
+          "sprite": "passive0.png",
+          "group": "passive",
+          "x": 0,
+          "y": 0,
+          "w": 48,
+          "h": 48
+        }
+      },
+      "spells": [
+        {
+          "id": "GalioQ",
+          "name": "Q 技能",
+          "description": "QMISSILEDAMAGE: 70/105/140/175/210 (+70% AP) | {85F4C0E9}: 2 (+1% AP) | SUPERQMONSTERMAXDAMAGETOTAL: 4 | BASEDAMAGE: 70/105/140/175/210 | SUPERQDURATION: 2 | SUPERQMONSTERMAXDAMAGE: 50 | SUPERQBASEPERCENTAGE: 2 | TORNADOTICKS: 4",
+          "tooltip": "正义巨像 施放 Q 技能对目标区域或敌人造成战术影响。",
+          "maxrank": 5,
+          "cooldown": [
+            12,
+            10,
+            8,
+            6,
+            4
+          ],
+          "cooldownBurn": "12/10/8/6/4",
+          "cost": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "costBurn": "50/60/70/80/90",
+          "costType": "法力",
+          "effectBurn": [
+            "",
+            "100/150/200/250/300"
+          ],
+          "vars": [],
+          "image": {
+            "full": "GalioQ.png",
+            "sprite": "spell0.png",
+            "group": "spell",
+            "x": 0,
+            "y": 0,
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "id": "GalioW",
+          "name": "W 技能",
+          "description": "TOTALPASSIVESHIELD: (+7.5/9/10.5/12/13.5% AP) | MAGICDAMAGEREDUCTION: 0.25/0.3/0.35/0.4/0.45 (+0.04% AP) (+0.08% 魔抗) (+0.01% AP) | MINTOTALDAMAGE: 20/30/40/50/60 (+30% AP) | MINIMUMWBASEDAMAGE: 20/30/40/50/60 | MAXIMUMWBASEDAMAGE: 60/90/120/150/180 | PASSIVESHIELDHEALTHRATIO: 0.075/0.09/0.105/0.12/0.135 | MRRATIO: 0.001 | PHYSICALDRPERCENT: 0.5 | DAMAGEREDUCTIONBASE: 0.25/0.3/0.35/0.4/0.45 | MAXCHARGEDURATION: 2 | SELFSLOWPERCENT: 15 | CCDURATIONMIN: 0.5 | HPRATIO: 0 | CCDURATIONMAX: 1.5 | DRLINGERDURATION: 2 | APRATIO: 0",
+          "tooltip": "正义巨像 施放 W 技能对目标区域或敌人造成战术影响。",
+          "maxrank": 5,
+          "cooldown": [
+            12,
+            10,
+            8,
+            6,
+            4
+          ],
+          "cooldownBurn": "12/10/8/6/4",
+          "cost": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "costBurn": "50/60/70/80/90",
+          "costType": "法力",
+          "effectBurn": [
+            "",
+            "100/150/200/250/300"
+          ],
+          "vars": [],
+          "image": {
+            "full": "GalioW.png",
+            "sprite": "spell0.png",
+            "group": "spell",
+            "x": 48,
+            "y": 0,
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "id": "GalioE",
+          "name": "E 技能",
+          "description": "TOTALDAMAGE: 100/135/170/205/240 (+100% AP) | BASEDAMAGE: 100/135/170/205/240 | KNOCKUPDURATION: 0.75 | MINRANGE: 250",
+          "tooltip": "正义巨像 施放 E 技能对目标区域或敌人造成战术影响。",
+          "maxrank": 5,
+          "cooldown": [
+            12,
+            10,
+            8,
+            6,
+            4
+          ],
+          "cooldownBurn": "12/10/8/6/4",
+          "cost": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "costBurn": "50/60/70/80/90",
+          "costType": "法力",
+          "effectBurn": [
+            "",
+            "100/150/200/250/300"
+          ],
+          "vars": [],
+          "image": {
+            "full": "GalioE.png",
+            "sprite": "spell0.png",
+            "group": "spell",
+            "x": 96,
+            "y": 0,
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "id": "GalioR",
+          "name": "R 技能",
+          "description": "TOTALDAMAGE: 150/250/350/450/550 (+70% AP) (+100% 魔抗) | BASEDAMAGE: 150/250/350/450/550 | STUNDURATIONOUTER: 0.75 | TEMPORARYWSHIELDDURATION: 5",
+          "tooltip": "正义巨像 施放 R 技能对目标区域或敌人造成战术影响。",
+          "maxrank": 3,
+          "cooldown": [
+            120,
+            100,
+            80
+          ],
+          "cooldownBurn": "120/100/80",
+          "cost": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "costBurn": "50/60/70/80/90",
+          "costType": "法力",
+          "effectBurn": [
+            "",
+            "100/150/200/250/300"
+          ],
+          "vars": [],
+          "image": {
+            "full": "GalioR.png",
+            "sprite": "spell0.png",
+            "group": "spell",
+            "x": 144,
+            "y": 0,
+            "w": 48,
+            "h": 48
+          }
+        }
+      ],
+      "allytips": [
+        "熟练掌握 正义巨像 的技能连招顺序与换血节奏。",
+        "在优势时积极游走支援边路，扩大团队经济优势。"
+      ],
+      "enemytips": [
+        "注意在对线期规避 正义巨像 的核心控制与爆发技能。",
+        "保持安全距离，在其关键技能进入冷却期间组织反击。"
+      ]
+    }
+  }
+}

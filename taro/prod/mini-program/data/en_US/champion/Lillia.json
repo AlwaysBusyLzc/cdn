@@ -1,0 +1,234 @@
+{
+  "type": "champion",
+  "format": "standAloneComplex",
+  "version": "16.18.1",
+  "data": {
+    "Lillia": {
+      "id": "Lillia",
+      "key": "73",
+      "name": "Lillia",
+      "title": "莉莉娅",
+      "blurb": "含羞蓓蕾 莉莉娅，峡谷经典竞技英雄，擅长于JUNGLE/TOP作战。",
+      "info": {
+        "attack": 6,
+        "defense": 5,
+        "magic": 5,
+        "difficulty": 5
+      },
+      "image": {
+        "full": "Lillia.png",
+        "sprite": "champion0.png",
+        "group": "champion",
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      },
+      "tags": [
+        "Assassin",
+        "Fighter"
+      ],
+      "partype": "法力",
+      "lanes": [
+        "JUNGLE",
+        "TOP"
+      ],
+      "stats": {
+        "hp": 600,
+        "hpperlevel": 100,
+        "mp": 350,
+        "mpperlevel": 30,
+        "movespeed": 335,
+        "armor": 30,
+        "armorperlevel": 4.5,
+        "spellblock": 30,
+        "spellblockperlevel": 1.5,
+        "attackrange": 175,
+        "hpregen": 6,
+        "hpregenperlevel": 0.75,
+        "mpregen": 7,
+        "mpregenperlevel": 0.7,
+        "crit": 0,
+        "critperlevel": 0,
+        "attackdamage": 60,
+        "attackdamageperlevel": 3.5,
+        "attackspeedperlevel": 2.5,
+        "attackspeed": 0.658
+      },
+      "lore": "含羞蓓蕾 莉莉娅，峡谷经典竞技英雄，擅长于JUNGLE/TOP作战。",
+      "passive": {
+        "name": "固有被动能力",
+        "description": "含羞蓓蕾 拥有专属被动战斗机制。",
+        "image": {
+          "full": "Lillia_Icon_Passive.png",
+          "sprite": "passive0.png",
+          "group": "passive",
+          "x": 0,
+          "y": 0,
+          "w": 48,
+          "h": 48
+        }
+      },
+      "spells": [
+        {
+          "id": "LilliaQ",
+          "name": "Q 技能",
+          "description": "TOTALDAMAGE: 35/45/55/65/75 (+35% AP) | PRANCESPEED: 0.03/0.04/0.05/0.06/0.07 (+0% AP) | BONUSTRUEDAMAGE: 35/45/55/65/75 (+35% AP) | MINIMUMRADIUS: 225 | MAXIMUMRADIUS: 485 | FLATDAMAGEBASE: 35/45/55/65/75 | FLATDAMAGETRUE: 35/45/55/65/75 | MINIONDAMAGEMOD: 1 | PRANCEDURATION: 6.5 | PRANCEMAXSTACKS: 4 | PRANCEFALLOFFTIME: 1 | PRANCEBONUSPERSTACK: 0.03/0.04/0.05/0.06/0.07 | APRATIO: 0.35",
+          "tooltip": "含羞蓓蕾 施放 Q 技能对目标区域或敌人造成战术影响。",
+          "maxrank": 5,
+          "cooldown": [
+            12,
+            10,
+            8,
+            6,
+            4
+          ],
+          "cooldownBurn": "12/10/8/6/4",
+          "cost": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "costBurn": "50/60/70/80/90",
+          "costType": "法力",
+          "effectBurn": [
+            "",
+            "100/150/200/250/300"
+          ],
+          "vars": [],
+          "image": {
+            "full": "LilliaQ.png",
+            "sprite": "spell0.png",
+            "group": "spell",
+            "x": 0,
+            "y": 0,
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "id": "LilliaW",
+          "name": "W 技能",
+          "description": "FLATDAMAGE: 80/100/120/140/160 (+35% AP) | FLATDAMAGESWEETSPOT: 80/100/120/140/160 (+35% AP) | FLATDAMAGEBASE: 80/100/120/140/160 | MAXIMUMDISTANCE: 700 | MAXSPEED: 500 | MINIMUMDISTANCE: 500 | LANDINGOFFSET: 150 | MAXIMUMCASTTIME: 0.75 | MINIMUMCASTTIME: 0.6 | MINIMUMRADIUS: 250 | SWEETSPOTRADIUS: 65 | SWEETSPOTBONUS: 3 | ANIMRANGECUTOFF: 300 | MINIONDAMAGEMOD: 0.5",
+          "tooltip": "含羞蓓蕾 施放 W 技能对目标区域或敌人造成战术影响。",
+          "maxrank": 5,
+          "cooldown": [
+            12,
+            10,
+            8,
+            6,
+            4
+          ],
+          "cooldownBurn": "12/10/8/6/4",
+          "cost": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "costBurn": "50/60/70/80/90",
+          "costType": "法力",
+          "effectBurn": [
+            "",
+            "100/150/200/250/300"
+          ],
+          "vars": [],
+          "image": {
+            "full": "LilliaW.png",
+            "sprite": "spell0.png",
+            "group": "spell",
+            "x": 48,
+            "y": 0,
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "id": "LilliaE",
+          "name": "E 技能",
+          "description": "IMPACTDAMAGETOTAL: 60/85/110/135/160 (+50% AP) | SLOWAMOUNT: 0.4 | SLOWDURATION: 3 | BOUNCERANGE: 25000 | IMPACTDAMAGE: 60/85/110/135/160 | IMPACTRANGECHECK: 115 | HITBOXWIDTH: 350 | HITBOXLENGTH: 200 | ANIMCUTOFFRANGE: 350 | APRATIO: 0.5",
+          "tooltip": "含羞蓓蕾 施放 E 技能对目标区域或敌人造成战术影响。",
+          "maxrank": 5,
+          "cooldown": [
+            12,
+            10,
+            8,
+            6,
+            4
+          ],
+          "cooldownBurn": "12/10/8/6/4",
+          "cost": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "costBurn": "50/60/70/80/90",
+          "costType": "法力",
+          "effectBurn": [
+            "",
+            "100/150/200/250/300"
+          ],
+          "vars": [],
+          "image": {
+            "full": "LilliaE.png",
+            "sprite": "spell0.png",
+            "group": "spell",
+            "x": 96,
+            "y": 0,
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "id": "LilliaR",
+          "name": "R 技能",
+          "description": "TOTALDAMAGE: 100/150/200/250/300 (+40% AP) | DROWSYDURATION: 1.5 | SLEEPDURATION: 2 | IMPACTDAMAGE: 25 | BREAKDAMAGEBASE: 100/150/200/250/300 | INITIALSLOW: -0.1",
+          "tooltip": "含羞蓓蕾 施放 R 技能对目标区域或敌人造成战术影响。",
+          "maxrank": 3,
+          "cooldown": [
+            120,
+            100,
+            80
+          ],
+          "cooldownBurn": "120/100/80",
+          "cost": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "costBurn": "50/60/70/80/90",
+          "costType": "法力",
+          "effectBurn": [
+            "",
+            "100/150/200/250/300"
+          ],
+          "vars": [],
+          "image": {
+            "full": "LilliaR.png",
+            "sprite": "spell0.png",
+            "group": "spell",
+            "x": 144,
+            "y": 0,
+            "w": 48,
+            "h": 48
+          }
+        }
+      ],
+      "allytips": [
+        "熟练掌握 含羞蓓蕾 的技能连招顺序与换血节奏。",
+        "在优势时积极游走支援边路，扩大团队经济优势。"
+      ],
+      "enemytips": [
+        "注意在对线期规避 含羞蓓蕾 的核心控制与爆发技能。",
+        "保持安全距离，在其关键技能进入冷却期间组织反击。"
+      ]
+    }
+  }
+}

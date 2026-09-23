@@ -1,0 +1,234 @@
+{
+  "type": "champion",
+  "format": "standAloneComplex",
+  "version": "16.18.1",
+  "data": {
+    "Zyra": {
+      "id": "Zyra",
+      "key": "173",
+      "name": "Zyra",
+      "title": "婕拉",
+      "blurb": "荆棘之兴 婕拉，峡谷经典竞技英雄，擅长于SUPPORT/JUNGLE作战。",
+      "info": {
+        "attack": 6,
+        "defense": 5,
+        "magic": 5,
+        "difficulty": 5
+      },
+      "image": {
+        "full": "Zyra.png",
+        "sprite": "champion0.png",
+        "group": "champion",
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      },
+      "tags": [
+        "Support",
+        "Tank"
+      ],
+      "partype": "法力",
+      "lanes": [
+        "SUPPORT",
+        "JUNGLE"
+      ],
+      "stats": {
+        "hp": 600,
+        "hpperlevel": 100,
+        "mp": 350,
+        "mpperlevel": 30,
+        "movespeed": 335,
+        "armor": 30,
+        "armorperlevel": 4.5,
+        "spellblock": 30,
+        "spellblockperlevel": 1.5,
+        "attackrange": 175,
+        "hpregen": 6,
+        "hpregenperlevel": 0.75,
+        "mpregen": 7,
+        "mpregenperlevel": 0.7,
+        "crit": 0,
+        "critperlevel": 0,
+        "attackdamage": 60,
+        "attackdamageperlevel": 3.5,
+        "attackspeedperlevel": 2.5,
+        "attackspeed": 0.658
+      },
+      "lore": "荆棘之兴 婕拉，峡谷经典竞技英雄，擅长于SUPPORT/JUNGLE作战。",
+      "passive": {
+        "name": "固有被动能力",
+        "description": "荆棘之兴 拥有专属被动战斗机制。",
+        "image": {
+          "full": "ZyraP.png",
+          "sprite": "passive0.png",
+          "group": "passive",
+          "x": 0,
+          "y": 0,
+          "w": 48,
+          "h": 48
+        }
+      },
+      "spells": [
+        {
+          "id": "ZyraQ",
+          "name": "Q 技能",
+          "description": "INITIALDAMAGE: 60/100/140/180/220 (+65% AP) | BASEDAMAGE: 60/100/140/180/220",
+          "tooltip": "荆棘之兴 施放 Q 技能对目标区域或敌人造成战术影响。",
+          "maxrank": 5,
+          "cooldown": [
+            12,
+            10,
+            8,
+            6,
+            4
+          ],
+          "cooldownBurn": "12/10/8/6/4",
+          "cost": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "costBurn": "50/60/70/80/90",
+          "costType": "法力",
+          "effectBurn": [
+            "",
+            "100/150/200/250/300"
+          ],
+          "vars": [],
+          "image": {
+            "full": "ZyraQ.png",
+            "sprite": "spell0.png",
+            "group": "spell",
+            "x": 0,
+            "y": 0,
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "id": "ZyraW",
+          "name": "W 技能",
+          "description": "KILLAMMOREFUNDMINION: 0.35 | KILLAMMOREFUNDCHAMP: 1 | VISIONGRANTED: 2 | SEEDDURATION: 60",
+          "tooltip": "荆棘之兴 施放 W 技能对目标区域或敌人造成战术影响。",
+          "maxrank": 5,
+          "cooldown": [
+            12,
+            10,
+            8,
+            6,
+            4
+          ],
+          "cooldownBurn": "12/10/8/6/4",
+          "cost": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "costBurn": "50/60/70/80/90",
+          "costType": "法力",
+          "effectBurn": [
+            "",
+            "100/150/200/250/300"
+          ],
+          "vars": [],
+          "image": {
+            "full": "ZyraW.png",
+            "sprite": "spell0.png",
+            "group": "spell",
+            "x": 48,
+            "y": 0,
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "id": "ZyraE",
+          "name": "E 技能",
+          "description": "TOTALDAMAGE: 60/95/130/165/200 (+60% AP) | MAXSLOWSTACKS: 2 | PHEROMONEDURATION: 4 | ROOTDURATION: 1/1.25/1.5/1.75/2 | BASEDAMAGE: 60/95/130/165/200 | SLOWAMOUNTPLANTATTACK: 30 | SLOWDURATIONPLANTATTACK: 2",
+          "tooltip": "荆棘之兴 施放 E 技能对目标区域或敌人造成战术影响。",
+          "maxrank": 5,
+          "cooldown": [
+            12,
+            10,
+            8,
+            6,
+            4
+          ],
+          "cooldownBurn": "12/10/8/6/4",
+          "cost": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "costBurn": "50/60/70/80/90",
+          "costType": "法力",
+          "effectBurn": [
+            "",
+            "100/150/200/250/300"
+          ],
+          "vars": [],
+          "image": {
+            "full": "ZyraE.png",
+            "sprite": "spell0.png",
+            "group": "spell",
+            "x": 96,
+            "y": 0,
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "id": "ZyraR",
+          "name": "R 技能",
+          "description": "TOTALDAMAGE: 200/300/400/400/400 (+70% AP) | PLANTDAMAGEBONUS: 50 | KNOCKUPDURATION: 1 | ENRAGEDBONUSHEALTHPERCENT: 0.5 | BASEDAMAGE: 200/300/400/400/400 | ENRAGEPLANTSBONUSDAMAGE: 150",
+          "tooltip": "荆棘之兴 施放 R 技能对目标区域或敌人造成战术影响。",
+          "maxrank": 3,
+          "cooldown": [
+            120,
+            100,
+            80
+          ],
+          "cooldownBurn": "120/100/80",
+          "cost": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "costBurn": "50/60/70/80/90",
+          "costType": "法力",
+          "effectBurn": [
+            "",
+            "100/150/200/250/300"
+          ],
+          "vars": [],
+          "image": {
+            "full": "ZyraR.png",
+            "sprite": "spell0.png",
+            "group": "spell",
+            "x": 144,
+            "y": 0,
+            "w": 48,
+            "h": 48
+          }
+        }
+      ],
+      "allytips": [
+        "熟练掌握 荆棘之兴 的技能连招顺序与换血节奏。",
+        "在优势时积极游走支援边路，扩大团队经济优势。"
+      ],
+      "enemytips": [
+        "注意在对线期规避 荆棘之兴 的核心控制与爆发技能。",
+        "保持安全距离，在其关键技能进入冷却期间组织反击。"
+      ]
+    }
+  }
+}

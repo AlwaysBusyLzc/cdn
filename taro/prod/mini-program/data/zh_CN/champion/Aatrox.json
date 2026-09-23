@@ -1,0 +1,233 @@
+{
+  "type": "champion",
+  "format": "standAloneComplex",
+  "version": "16.18.1",
+  "data": {
+    "Aatrox": {
+      "id": "Aatrox",
+      "key": "1",
+      "name": "暗裔剑魔",
+      "title": "亚托克斯",
+      "blurb": "暗裔剑魔 亚托克斯，峡谷经典竞技英雄，擅长于TOP作战。",
+      "info": {
+        "attack": 6,
+        "defense": 5,
+        "magic": 5,
+        "difficulty": 5
+      },
+      "image": {
+        "full": "Aatrox.png",
+        "sprite": "champion0.png",
+        "group": "champion",
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      },
+      "tags": [
+        "Fighter",
+        "Tank"
+      ],
+      "partype": "法力",
+      "lanes": [
+        "TOP"
+      ],
+      "stats": {
+        "hp": 600,
+        "hpperlevel": 100,
+        "mp": 350,
+        "mpperlevel": 30,
+        "movespeed": 335,
+        "armor": 30,
+        "armorperlevel": 4.5,
+        "spellblock": 30,
+        "spellblockperlevel": 1.5,
+        "attackrange": 175,
+        "hpregen": 6,
+        "hpregenperlevel": 0.75,
+        "mpregen": 7,
+        "mpregenperlevel": 0.7,
+        "crit": 0,
+        "critperlevel": 0,
+        "attackdamage": 60,
+        "attackdamageperlevel": 3.5,
+        "attackspeedperlevel": 2.5,
+        "attackspeed": 0.658
+      },
+      "lore": "暗裔剑魔 亚托克斯，峡谷经典竞技英雄，擅长于TOP作战。",
+      "passive": {
+        "name": "固有被动能力",
+        "description": "暗裔剑魔 拥有专属被动战斗机制。",
+        "image": {
+          "full": "Aatrox_Passive.png",
+          "sprite": "passive0.png",
+          "group": "passive",
+          "x": 0,
+          "y": 0,
+          "w": 48,
+          "h": 48
+        }
+      },
+      "spells": [
+        {
+          "id": "AatroxQ",
+          "name": "Q 技能",
+          "description": "QDAMAGE: 10/25/40/55/70 (+60/67.5/75/82.5/90% AD) | QBASEDAMAGE: 10/25/40/55/70 | QTOTALADRATIO: 0.6/0.675/0.75/0.825/0.9 | QSWEETSPOTBONUS: 0.75 | QKNOCKUPDURATION: 0.25 | QRAMPBONUS: 0.25 | QMONSTERBONUS: 25 | QEXTENSIONTIME: 4",
+          "tooltip": "暗裔剑魔 施放 Q 技能对目标区域或敌人造成战术影响。",
+          "maxrank": 5,
+          "cooldown": [
+            12,
+            10,
+            8,
+            6,
+            4
+          ],
+          "cooldownBurn": "12/10/8/6/4",
+          "cost": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "costBurn": "50/60/70/80/90",
+          "costType": "法力",
+          "effectBurn": [
+            "",
+            "100/150/200/250/300"
+          ],
+          "vars": [],
+          "image": {
+            "full": "AatroxQ.png",
+            "sprite": "spell0.png",
+            "group": "spell",
+            "x": 0,
+            "y": 0,
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "id": "AatroxW",
+          "name": "W 技能",
+          "description": "WDAMAGE: 30/40/50/60/70 (+40% AD) | WBASEDAMAGE: 30/40/50/60/70 | WBONUSADRATIO: 0.4 | WSLOWPERCENTAGE: -0.25/-0.275/-0.3/-0.325/-0.35 | WSLOWDURATION: 1.5 | WTOTALADRATIO: 0.4",
+          "tooltip": "暗裔剑魔 施放 W 技能对目标区域或敌人造成战术影响。",
+          "maxrank": 5,
+          "cooldown": [
+            12,
+            10,
+            8,
+            6,
+            4
+          ],
+          "cooldownBurn": "12/10/8/6/4",
+          "cost": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "costBurn": "50/60/70/80/90",
+          "costType": "法力",
+          "effectBurn": [
+            "",
+            "100/150/200/250/300"
+          ],
+          "vars": [],
+          "image": {
+            "full": "AatroxW.png",
+            "sprite": "spell0.png",
+            "group": "spell",
+            "x": 48,
+            "y": 0,
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "id": "AatroxE",
+          "name": "E 技能",
+          "description": "TOTALEVAMP: 16 (+1.1% AP) | ESPELLVAMP: 16 | EBONUSAD: 15/25/35/45/55 | ERESISTANCEPERAD: 10/15/20/25/30 | EDASHSPEED: 800 | EMAXRANGE: 300 | EDURATION: 1.5 | EBASERECHARGETIME: 26/22/18/14/10 | EMINRANGE: 75 | ESPELLVAMPEMPOWERED: 16 | EVAMPHPRATIO: 0.011",
+          "tooltip": "暗裔剑魔 施放 E 技能对目标区域或敌人造成战术影响。",
+          "maxrank": 5,
+          "cooldown": [
+            12,
+            10,
+            8,
+            6,
+            4
+          ],
+          "cooldownBurn": "12/10/8/6/4",
+          "cost": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "costBurn": "50/60/70/80/90",
+          "costType": "法力",
+          "effectBurn": [
+            "",
+            "100/150/200/250/300"
+          ],
+          "vars": [],
+          "image": {
+            "full": "AatroxE.png",
+            "sprite": "spell0.png",
+            "group": "spell",
+            "x": 96,
+            "y": 0,
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "id": "AatroxR",
+          "name": "R 技能",
+          "description": "RDURATION: 10 | RERECHARGEBONUS: 0.5 | RMOVEMENTSPEED: 0.15/0.2/0.25/0.3/0.35 | RMOVEMENTSPEEDBONUS: 0.6/0.8/1/1.2/1.4 | RTOTALADAMP: 0.2/0.3/0.4/0.5/0.6 | RBONUSADRANGE: 75 | RSPEEDMINDURATION: 3 | RFXEXTRADURATION: 0.6 | RPERCENTBLOODWELLTOBOOSTTOMAX: 0.8 | RHEALINGAMP: 0.5/0.75/1/1.25/1.5 | REXTENSION: 5 | RFEARRADIUS: 600 | RMINIONFEARDURATION: 3 | RCHAMPIONFEARDURATION: 1",
+          "tooltip": "暗裔剑魔 施放 R 技能对目标区域或敌人造成战术影响。",
+          "maxrank": 3,
+          "cooldown": [
+            120,
+            100,
+            80
+          ],
+          "cooldownBurn": "120/100/80",
+          "cost": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "costBurn": "50/60/70/80/90",
+          "costType": "法力",
+          "effectBurn": [
+            "",
+            "100/150/200/250/300"
+          ],
+          "vars": [],
+          "image": {
+            "full": "AatroxR.png",
+            "sprite": "spell0.png",
+            "group": "spell",
+            "x": 144,
+            "y": 0,
+            "w": 48,
+            "h": 48
+          }
+        }
+      ],
+      "allytips": [
+        "熟练掌握 暗裔剑魔 的技能连招顺序与换血节奏。",
+        "在优势时积极游走支援边路，扩大团队经济优势。"
+      ],
+      "enemytips": [
+        "注意在对线期规避 暗裔剑魔 的核心控制与爆发技能。",
+        "保持安全距离，在其关键技能进入冷却期间组织反击。"
+      ]
+    }
+  }
+}

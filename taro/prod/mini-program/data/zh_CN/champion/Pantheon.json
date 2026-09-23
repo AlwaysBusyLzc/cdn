@@ -1,0 +1,235 @@
+{
+  "type": "champion",
+  "format": "standAloneComplex",
+  "version": "16.18.1",
+  "data": {
+    "Pantheon": {
+      "id": "Pantheon",
+      "key": "101",
+      "name": "不屈之枪",
+      "title": "潘森",
+      "blurb": "不屈之枪 潘森，峡谷经典竞技英雄，擅长于TOP/MID/SUPPORT作战。",
+      "info": {
+        "attack": 6,
+        "defense": 5,
+        "magic": 5,
+        "difficulty": 5
+      },
+      "image": {
+        "full": "Pantheon.png",
+        "sprite": "champion0.png",
+        "group": "champion",
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      },
+      "tags": [
+        "Fighter",
+        "Tank"
+      ],
+      "partype": "法力",
+      "lanes": [
+        "TOP",
+        "MID",
+        "SUPPORT"
+      ],
+      "stats": {
+        "hp": 600,
+        "hpperlevel": 100,
+        "mp": 350,
+        "mpperlevel": 30,
+        "movespeed": 335,
+        "armor": 30,
+        "armorperlevel": 4.5,
+        "spellblock": 30,
+        "spellblockperlevel": 1.5,
+        "attackrange": 175,
+        "hpregen": 6,
+        "hpregenperlevel": 0.75,
+        "mpregen": 7,
+        "mpregenperlevel": 0.7,
+        "crit": 0,
+        "critperlevel": 0,
+        "attackdamage": 60,
+        "attackdamageperlevel": 3.5,
+        "attackspeedperlevel": 2.5,
+        "attackspeed": 0.658
+      },
+      "lore": "不屈之枪 潘森，峡谷经典竞技英雄，擅长于TOP/MID/SUPPORT作战。",
+      "passive": {
+        "name": "固有被动能力",
+        "description": "不屈之枪 拥有专属被动战斗机制。",
+        "image": {
+          "full": "Pantheon_Passive.png",
+          "sprite": "passive0.png",
+          "group": "passive",
+          "x": 0,
+          "y": 0,
+          "w": 48,
+          "h": 48
+        }
+      },
+      "spells": [
+        {
+          "id": "PantheonQ",
+          "name": "Q 技能",
+          "description": "HOLDDAMAGECALC: 70/100/130/160/190 (+115% AD) (+50% AP) | TAPDAMAGECALC: 70/100/130/160/190 (+115% AD) | EMPOWEREDDAMAGECALC: (+115% AD) | {6FC04DC0}: 85/130/175/220/265 (+115% AD) | EXECUTEDAMAGECALCMODIFIED: 70/100/130/160/190 85/130/175/220/265 (+230% AD) | HOLDDAMAGE: 70/100/130/160/190 | TAPDAMAGE: 70/100/130/160/190 | CRITHEALTHTHRESHOLD: 0.2 | HOLDRANGE: 1200 | DAMAGEFALLOFF: 0.5 | TAPCOOLDOWNREFUND: 0.6 | HOLDEXECUTEDAMAGE: 85/130/175/220/265 | SELFSLOW: 0.1 | MINTIMEHOLDCAST: 0.35 | MINIONDAMAGEMOD: 0.7 | EXECUTEBASEDAMAGE: 155/230/305/380/455 | MONSTERDAMAGEMOD: 0.8",
+          "tooltip": "不屈之枪 施放 Q 技能对目标区域或敌人造成战术影响。",
+          "maxrank": 5,
+          "cooldown": [
+            12,
+            10,
+            8,
+            6,
+            4
+          ],
+          "cooldownBurn": "12/10/8/6/4",
+          "cost": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "costBurn": "50/60/70/80/90",
+          "costType": "法力",
+          "effectBurn": [
+            "",
+            "100/150/200/250/300"
+          ],
+          "vars": [],
+          "image": {
+            "full": "PantheonQ.png",
+            "sprite": "spell0.png",
+            "group": "spell",
+            "x": 0,
+            "y": 0,
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "id": "PantheonW",
+          "name": "W 技能",
+          "description": "DAMAGECALC: 0 (+100% AP) | MAXHEALTHDAMAGECALC: 0.06/0.065/0.07/0.075/0.08 (+0% AP) (+0.015% AP) | BASEDAMAGE: 0 | STUNDURATION: 1 | BUFFDURATION: 4 | EMPOWEREDNUMHITS: 3 | EMPOWEREDDAMAGEMULT: 0.6 | MAXHEALTHDAMAGE: 0.06/0.065/0.07/0.075/0.08 | MONSTERDAMAGECAP: 150 | MONSTERDAMAGEMIN: 60 | MAXHEALTHPER100AP: 0",
+          "tooltip": "不屈之枪 施放 W 技能对目标区域或敌人造成战术影响。",
+          "maxrank": 5,
+          "cooldown": [
+            12,
+            10,
+            8,
+            6,
+            4
+          ],
+          "cooldownBurn": "12/10/8/6/4",
+          "cost": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "costBurn": "50/60/70/80/90",
+          "costType": "法力",
+          "effectBurn": [
+            "",
+            "100/150/200/250/300"
+          ],
+          "vars": [],
+          "image": {
+            "full": "PantheonW.png",
+            "sprite": "spell0.png",
+            "group": "spell",
+            "x": 48,
+            "y": 0,
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "id": "PantheonE",
+          "name": "E 技能",
+          "description": "DAMAGECALC: (+100% AD) | SHIELDDAMAGECALC: 55/105/155/205/255 (+150% AD) | HEALCALC: (+150% AD) | RESISTSCALC: (+2.5% AP) | SHIELDDURATION: 1.5 | ATTACKSPERSECOND: 4 | SHIELDBASEDAMAGE: 55/105/155/205/255 | SPEARSTRIKESRADIUS: 525 | SHIELDSWIPERADIUS: 375 | MINIONDAMAGEREDUCTION: 0.5 | RECASTLOCKOUT: 0.3 | SPEEDDURATION: 1.5 | SPEEDAMOUNT: 0.6 | RESISTSDURATION: 4",
+          "tooltip": "不屈之枪 施放 E 技能对目标区域或敌人造成战术影响。",
+          "maxrank": 5,
+          "cooldown": [
+            12,
+            10,
+            8,
+            6,
+            4
+          ],
+          "cooldownBurn": "12/10/8/6/4",
+          "cost": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "costBurn": "50/60/70/80/90",
+          "costType": "法力",
+          "effectBurn": [
+            "",
+            "100/150/200/250/300"
+          ],
+          "vars": [],
+          "image": {
+            "full": "PantheonE.png",
+            "sprite": "spell0.png",
+            "group": "spell",
+            "x": 96,
+            "y": 0,
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "id": "PantheonR",
+          "name": "R 技能",
+          "description": "DAMAGECALC: 300/500/700/900/1100 (+100% AP) | BASEDAMAGE: 300/500/700/900/1100 | EDGEDAMAGEREDUCTION: 0.5 | RADIUS: 450 | SWEETSPOTRADIUS: 125 | CANCELCOOLDOWN: 30 | SPEARSLOW: 0.5 | SPEARSLOWDURATION: 2 | ARMORPENETRATION: 0.1/0.2/0.3/0.4/0.5 | APRATIO: 1",
+          "tooltip": "不屈之枪 施放 R 技能对目标区域或敌人造成战术影响。",
+          "maxrank": 3,
+          "cooldown": [
+            120,
+            100,
+            80
+          ],
+          "cooldownBurn": "120/100/80",
+          "cost": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "costBurn": "50/60/70/80/90",
+          "costType": "法力",
+          "effectBurn": [
+            "",
+            "100/150/200/250/300"
+          ],
+          "vars": [],
+          "image": {
+            "full": "PantheonR.png",
+            "sprite": "spell0.png",
+            "group": "spell",
+            "x": 144,
+            "y": 0,
+            "w": 48,
+            "h": 48
+          }
+        }
+      ],
+      "allytips": [
+        "熟练掌握 不屈之枪 的技能连招顺序与换血节奏。",
+        "在优势时积极游走支援边路，扩大团队经济优势。"
+      ],
+      "enemytips": [
+        "注意在对线期规避 不屈之枪 的核心控制与爆发技能。",
+        "保持安全距离，在其关键技能进入冷却期间组织反击。"
+      ]
+    }
+  }
+}

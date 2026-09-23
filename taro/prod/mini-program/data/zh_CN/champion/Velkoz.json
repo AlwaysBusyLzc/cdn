@@ -1,0 +1,234 @@
+{
+  "type": "champion",
+  "format": "standAloneComplex",
+  "version": "16.18.1",
+  "data": {
+    "Velkoz": {
+      "id": "Velkoz",
+      "key": "150",
+      "name": "虚空之眼",
+      "title": "维克兹",
+      "blurb": "虚空之眼 维克兹，峡谷经典竞技英雄，擅长于SUPPORT/MID作战。",
+      "info": {
+        "attack": 6,
+        "defense": 5,
+        "magic": 5,
+        "difficulty": 5
+      },
+      "image": {
+        "full": "Velkoz.png",
+        "sprite": "champion0.png",
+        "group": "champion",
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      },
+      "tags": [
+        "Support",
+        "Tank"
+      ],
+      "partype": "法力",
+      "lanes": [
+        "SUPPORT",
+        "MID"
+      ],
+      "stats": {
+        "hp": 600,
+        "hpperlevel": 100,
+        "mp": 350,
+        "mpperlevel": 30,
+        "movespeed": 335,
+        "armor": 30,
+        "armorperlevel": 4.5,
+        "spellblock": 30,
+        "spellblockperlevel": 1.5,
+        "attackrange": 175,
+        "hpregen": 6,
+        "hpregenperlevel": 0.75,
+        "mpregen": 7,
+        "mpregenperlevel": 0.7,
+        "crit": 0,
+        "critperlevel": 0,
+        "attackdamage": 60,
+        "attackdamageperlevel": 3.5,
+        "attackspeedperlevel": 2.5,
+        "attackspeed": 0.658
+      },
+      "lore": "虚空之眼 维克兹，峡谷经典竞技英雄，擅长于SUPPORT/MID作战。",
+      "passive": {
+        "name": "固有被动能力",
+        "description": "虚空之眼 拥有专属被动战斗机制。",
+        "image": {
+          "full": "VelKoz_Passive.png",
+          "sprite": "passive0.png",
+          "group": "passive",
+          "x": 0,
+          "y": 0,
+          "w": 48,
+          "h": 48
+        }
+      },
+      "spells": [
+        {
+          "id": "VelkozQ",
+          "name": "Q 技能",
+          "description": "TOTALDAMAGE: 80/120/160/200/240 (+90% AP) | PASSIVESTACKSTOADD: 1 | BASEDAMAGE: 80/120/160/200/240 | SLOWAMOUNT: 0.7 | SLOWDURATION: 1/1.4/1.8/2.2/2.6 | SPLITTELEGRAPHTIME: 0.25 | MANAREFUND: 0.5 | TOOLTIPMANAREFUND: 20/22.5/25/27.5/30",
+          "tooltip": "虚空之眼 施放 Q 技能对目标区域或敌人造成战术影响。",
+          "maxrank": 5,
+          "cooldown": [
+            12,
+            10,
+            8,
+            6,
+            4
+          ],
+          "cooldownBurn": "12/10/8/6/4",
+          "cost": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "costBurn": "50/60/70/80/90",
+          "costType": "法力",
+          "effectBurn": [
+            "",
+            "100/150/200/250/300"
+          ],
+          "vars": [],
+          "image": {
+            "full": "VelkozQ.png",
+            "sprite": "spell0.png",
+            "group": "spell",
+            "x": 0,
+            "y": 0,
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "id": "VelkozW",
+          "name": "W 技能",
+          "description": "INITIALDAMAGE: 30/50/70/90/110 (+20% AP) | SECONDARYDAMAGE: 45/75/105/135/165 (+25% AP) | PASSIVESTACKSTOADD: 1 | BASEINITIALDAMAGE: 30/50/70/90/110 | BASESECONDARYDAMAGE: 45/75/105/135/165",
+          "tooltip": "虚空之眼 施放 W 技能对目标区域或敌人造成战术影响。",
+          "maxrank": 5,
+          "cooldown": [
+            12,
+            10,
+            8,
+            6,
+            4
+          ],
+          "cooldownBurn": "12/10/8/6/4",
+          "cost": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "costBurn": "50/60/70/80/90",
+          "costType": "法力",
+          "effectBurn": [
+            "",
+            "100/150/200/250/300"
+          ],
+          "vars": [],
+          "image": {
+            "full": "VelkozW.png",
+            "sprite": "spell0.png",
+            "group": "spell",
+            "x": 48,
+            "y": 0,
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "id": "VelkozE",
+          "name": "E 技能",
+          "description": "TOTALDAMAGE: 70/100/130/160/190 (+30% AP) | PASSIVESTACKSTOADD: 1 | BASEDAMAGE: 70/100/130/160/190 | STUNDURATION: 0.75 | MOVEDISTANCE: 225 | APRATIO: 0.3 | MAXDETONATIONTIME: 0.55 | MINDETONATIONTIME: 0.25",
+          "tooltip": "虚空之眼 施放 E 技能对目标区域或敌人造成战术影响。",
+          "maxrank": 5,
+          "cooldown": [
+            12,
+            10,
+            8,
+            6,
+            4
+          ],
+          "cooldownBurn": "12/10/8/6/4",
+          "cost": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "costBurn": "50/60/70/80/90",
+          "costType": "法力",
+          "effectBurn": [
+            "",
+            "100/150/200/250/300"
+          ],
+          "vars": [],
+          "image": {
+            "full": "VelkozE.png",
+            "sprite": "spell0.png",
+            "group": "spell",
+            "x": 96,
+            "y": 0,
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "id": "VelkozR",
+          "name": "R 技能",
+          "description": "TOTALDAMAGE: (+125% AP) | PASSIVESTACKSTOADDPERTICK: 1",
+          "tooltip": "虚空之眼 施放 R 技能对目标区域或敌人造成战术影响。",
+          "maxrank": 3,
+          "cooldown": [
+            120,
+            100,
+            80
+          ],
+          "cooldownBurn": "120/100/80",
+          "cost": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "costBurn": "50/60/70/80/90",
+          "costType": "法力",
+          "effectBurn": [
+            "",
+            "100/150/200/250/300"
+          ],
+          "vars": [],
+          "image": {
+            "full": "VelkozR.png",
+            "sprite": "spell0.png",
+            "group": "spell",
+            "x": 144,
+            "y": 0,
+            "w": 48,
+            "h": 48
+          }
+        }
+      ],
+      "allytips": [
+        "熟练掌握 虚空之眼 的技能连招顺序与换血节奏。",
+        "在优势时积极游走支援边路，扩大团队经济优势。"
+      ],
+      "enemytips": [
+        "注意在对线期规避 虚空之眼 的核心控制与爆发技能。",
+        "保持安全距离，在其关键技能进入冷却期间组织反击。"
+      ]
+    }
+  }
+}

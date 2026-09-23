@@ -1,0 +1,234 @@
+{
+  "type": "champion",
+  "format": "standAloneComplex",
+  "version": "16.18.1",
+  "data": {
+    "Ivern": {
+      "id": "Ivern",
+      "key": "49",
+      "name": "Ivern",
+      "title": "艾翁",
+      "blurb": "翠神 艾翁，峡谷经典竞技英雄，擅长于JUNGLE/SUPPORT作战。",
+      "info": {
+        "attack": 6,
+        "defense": 5,
+        "magic": 5,
+        "difficulty": 5
+      },
+      "image": {
+        "full": "Ivern.png",
+        "sprite": "champion0.png",
+        "group": "champion",
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      },
+      "tags": [
+        "Assassin",
+        "Fighter"
+      ],
+      "partype": "法力",
+      "lanes": [
+        "JUNGLE",
+        "SUPPORT"
+      ],
+      "stats": {
+        "hp": 600,
+        "hpperlevel": 100,
+        "mp": 350,
+        "mpperlevel": 30,
+        "movespeed": 335,
+        "armor": 30,
+        "armorperlevel": 4.5,
+        "spellblock": 30,
+        "spellblockperlevel": 1.5,
+        "attackrange": 175,
+        "hpregen": 6,
+        "hpregenperlevel": 0.75,
+        "mpregen": 7,
+        "mpregenperlevel": 0.7,
+        "crit": 0,
+        "critperlevel": 0,
+        "attackdamage": 60,
+        "attackdamageperlevel": 3.5,
+        "attackspeedperlevel": 2.5,
+        "attackspeed": 0.658
+      },
+      "lore": "翠神 艾翁，峡谷经典竞技英雄，擅长于JUNGLE/SUPPORT作战。",
+      "passive": {
+        "name": "固有被动能力",
+        "description": "翠神 拥有专属被动战斗机制。",
+        "image": {
+          "full": "IvernP.png",
+          "sprite": "passive0.png",
+          "group": "passive",
+          "x": 0,
+          "y": 0,
+          "w": 48,
+          "h": 48
+        }
+      },
+      "spells": [
+        {
+          "id": "IvernQ",
+          "name": "Q 技能",
+          "description": "TOTALDAMAGE: 80/125/170/215/260 (+70% AP) | DASHSPEED: 1500 | BASEDAMAGE: 80/125/170/215/260 | ROOTDURATION: 1.6/1.7/1.8/1.9/2 | APRATIO: 0.7",
+          "tooltip": "翠神 施放 Q 技能对目标区域或敌人造成战术影响。",
+          "maxrank": 5,
+          "cooldown": [
+            12,
+            10,
+            8,
+            6,
+            4
+          ],
+          "cooldownBurn": "12/10/8/6/4",
+          "cost": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "costBurn": "50/60/70/80/90",
+          "costType": "法力",
+          "effectBurn": [
+            "",
+            "100/150/200/250/300"
+          ],
+          "vars": [],
+          "image": {
+            "full": "IvernQ.png",
+            "sprite": "spell0.png",
+            "group": "spell",
+            "x": 0,
+            "y": 0,
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "id": "IvernW",
+          "name": "W 技能",
+          "description": "TOTALDAMAGE: 20/27.5/35/42.5/50 (+20% AP) | TOTALALLYDAMAGE: 10/15/20/25/30 (+10% AP) | BUFFDURATION: 3 | ALLYBUFFDURATION: 1.5 | BASEDAMAGE: 20/27.5/35/42.5/50 | ALLYBASEDAMAGE: 10/15/20/25/30 | REVEALDURATION: 8 | MAXBRUSHDURATION: 45 | BRUSHRADIUS: 190 | BRUSHSPACING: 90",
+          "tooltip": "翠神 施放 W 技能对目标区域或敌人造成战术影响。",
+          "maxrank": 5,
+          "cooldown": [
+            12,
+            10,
+            8,
+            6,
+            4
+          ],
+          "cooldownBurn": "12/10/8/6/4",
+          "cost": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "costBurn": "50/60/70/80/90",
+          "costType": "法力",
+          "effectBurn": [
+            "",
+            "100/150/200/250/300"
+          ],
+          "vars": [],
+          "image": {
+            "full": "IvernW.png",
+            "sprite": "spell0.png",
+            "group": "spell",
+            "x": 48,
+            "y": 0,
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "id": "IvernE",
+          "name": "E 技能",
+          "description": "TOTALSHIELD: 75/115/155/195/235 (+50% AP) | TOTALDAMAGE: 70/90/110/130/150 (+80% AP) | BASESHIELD: 75/115/155/195/235 | SHIELDAPRATIO: 0.5 | BASEDAMAGE: 70/90/110/130/150 | DAMAGEAPRATIO: 0.8 | SLOWAMOUNT: 0.4/0.45/0.5/0.55/0.6 | SLOWDURATION: 2 | SHIELDDURATION: 2",
+          "tooltip": "翠神 施放 E 技能对目标区域或敌人造成战术影响。",
+          "maxrank": 5,
+          "cooldown": [
+            12,
+            10,
+            8,
+            6,
+            4
+          ],
+          "cooldownBurn": "12/10/8/6/4",
+          "cost": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "costBurn": "50/60/70/80/90",
+          "costType": "法力",
+          "effectBurn": [
+            "",
+            "100/150/200/250/300"
+          ],
+          "vars": [],
+          "image": {
+            "full": "IvernE.png",
+            "sprite": "spell0.png",
+            "group": "spell",
+            "x": 96,
+            "y": 0,
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "id": "IvernR",
+          "name": "R 技能",
+          "description": "TOTALDAISYHP: (+50% AP) | TOTALDAISYAD: 70/100/130/160/190 (+15% AP) | TOTALSHOCKWAVEDAMAGE: 90/140/190/240/290 (+50% AP) | SPAWNBUFFDURATION: 5 | MSONSPAWN: 40 | DRONSPAWN: 25 | DAISYAS: 30/45/60/75/90 | DAISYAD: 70/100/130/160/190 | DAISYAOEDR: 25 | DAISYDURATION: 45 | SHOCKWAVEBASEDAMAGE: 90/140/190/240/290 | SHOCKWAVECCDURATION: 1 | SHOCKWAVECD: 3",
+          "tooltip": "翠神 施放 R 技能对目标区域或敌人造成战术影响。",
+          "maxrank": 3,
+          "cooldown": [
+            120,
+            100,
+            80
+          ],
+          "cooldownBurn": "120/100/80",
+          "cost": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "costBurn": "50/60/70/80/90",
+          "costType": "法力",
+          "effectBurn": [
+            "",
+            "100/150/200/250/300"
+          ],
+          "vars": [],
+          "image": {
+            "full": "IvernR.png",
+            "sprite": "spell0.png",
+            "group": "spell",
+            "x": 144,
+            "y": 0,
+            "w": 48,
+            "h": 48
+          }
+        }
+      ],
+      "allytips": [
+        "熟练掌握 翠神 的技能连招顺序与换血节奏。",
+        "在优势时积极游走支援边路，扩大团队经济优势。"
+      ],
+      "enemytips": [
+        "注意在对线期规避 翠神 的核心控制与爆发技能。",
+        "保持安全距离，在其关键技能进入冷却期间组织反击。"
+      ]
+    }
+  }
+}

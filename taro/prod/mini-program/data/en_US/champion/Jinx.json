@@ -1,0 +1,232 @@
+{
+  "type": "champion",
+  "format": "standAloneComplex",
+  "version": "16.18.1",
+  "data": {
+    "Jinx": {
+      "id": "Jinx",
+      "key": "55",
+      "name": "Jinx",
+      "title": "金克丝",
+      "blurb": "暴走萝莉 金克丝，峡谷经典竞技英雄，擅长于BOTTOM作战。",
+      "info": {
+        "attack": 6,
+        "defense": 5,
+        "magic": 5,
+        "difficulty": 5
+      },
+      "image": {
+        "full": "Jinx.png",
+        "sprite": "champion0.png",
+        "group": "champion",
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      },
+      "tags": [
+        "Marksman"
+      ],
+      "partype": "法力",
+      "lanes": [
+        "BOTTOM"
+      ],
+      "stats": {
+        "hp": 600,
+        "hpperlevel": 100,
+        "mp": 350,
+        "mpperlevel": 30,
+        "movespeed": 335,
+        "armor": 30,
+        "armorperlevel": 4.5,
+        "spellblock": 30,
+        "spellblockperlevel": 1.5,
+        "attackrange": 550,
+        "hpregen": 6,
+        "hpregenperlevel": 0.75,
+        "mpregen": 7,
+        "mpregenperlevel": 0.7,
+        "crit": 0,
+        "critperlevel": 0,
+        "attackdamage": 60,
+        "attackdamageperlevel": 3.5,
+        "attackspeedperlevel": 2.5,
+        "attackspeed": 0.658
+      },
+      "lore": "暴走萝莉 金克丝，峡谷经典竞技英雄，擅长于BOTTOM作战。",
+      "passive": {
+        "name": "固有被动能力",
+        "description": "暴走萝莉 拥有专属被动战斗机制。",
+        "image": {
+          "full": "Jinx_Passive.png",
+          "sprite": "passive0.png",
+          "group": "passive",
+          "x": 0,
+          "y": 0,
+          "w": 48,
+          "h": 48
+        }
+      },
+      "spells": [
+        {
+          "id": "JinxQ",
+          "name": "Q 技能",
+          "description": "ROCKETDAMAGE: (+110% AD) | ROCKETAOERADIUS: 250 | ROCKETBONUSRANGE: 100/125/150/175/200 | MINIGUNATTACKSPEEDMAX: 30/55/80/105/130 | MINIGUNATTACKSPEEDDURATION: 2.5 | MINIGUNATTACKSPEEDSTACKS: 3 | ROCKETTAD: 1.1 | ROCKETASPDPENALTY: 0.1",
+          "tooltip": "暴走萝莉 施放 Q 技能对目标区域或敌人造成战术影响。",
+          "maxrank": 5,
+          "cooldown": [
+            12,
+            10,
+            8,
+            6,
+            4
+          ],
+          "cooldownBurn": "12/10/8/6/4",
+          "cost": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "costBurn": "50/60/70/80/90",
+          "costType": "法力",
+          "effectBurn": [
+            "",
+            "100/150/200/250/300"
+          ],
+          "vars": [],
+          "image": {
+            "full": "JinxQ.png",
+            "sprite": "spell0.png",
+            "group": "spell",
+            "x": 0,
+            "y": 0,
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "id": "JinxW",
+          "name": "W 技能",
+          "description": "TOTALDAMAGE: 10/60/110/160/210 (+140% AD) | JINXLOWENDWCASTTIME: 0.4 | JINXWASPEEDCASTTIMESCALARPERHUNDRETHSECOND: 0.08 | DAMAGE: 10/60/110/160/210 | SLOWPERCENT: 40/50/60/70/80 | SLOWDURATION: 2 | ADRATIO: 1.4",
+          "tooltip": "暴走萝莉 施放 W 技能对目标区域或敌人造成战术影响。",
+          "maxrank": 5,
+          "cooldown": [
+            12,
+            10,
+            8,
+            6,
+            4
+          ],
+          "cooldownBurn": "12/10/8/6/4",
+          "cost": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "costBurn": "50/60/70/80/90",
+          "costType": "法力",
+          "effectBurn": [
+            "",
+            "100/150/200/250/300"
+          ],
+          "vars": [],
+          "image": {
+            "full": "JinxW.png",
+            "sprite": "spell0.png",
+            "group": "spell",
+            "x": 48,
+            "y": 0,
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "id": "JinxE",
+          "name": "E 技能",
+          "description": "TOTALDAMAGE: 90/140/190/240/290 (+100% AP) | DAMAGE: 90/140/190/240/290 | ROOTDURATION: 1.5 | GRENADEDURATION: 5 | GRENADEARMTIME: 0.5",
+          "tooltip": "暴走萝莉 施放 E 技能对目标区域或敌人造成战术影响。",
+          "maxrank": 5,
+          "cooldown": [
+            12,
+            10,
+            8,
+            6,
+            4
+          ],
+          "cooldownBurn": "12/10/8/6/4",
+          "cost": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "costBurn": "50/60/70/80/90",
+          "costType": "法力",
+          "effectBurn": [
+            "",
+            "100/150/200/250/300"
+          ],
+          "vars": [],
+          "image": {
+            "full": "JinxE.png",
+            "sprite": "spell0.png",
+            "group": "spell",
+            "x": 96,
+            "y": 0,
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "id": "JinxR",
+          "name": "R 技能",
+          "description": "DAMAGEFLOOR: 20/35/50/65/80 (+12% AD) | DAMAGEMAX: 200/350/500/650/800 (+120% AD) | BASEDAMAGE: 20/35/50/65/80 | MAXDAMAGE: 200/350/500/650/800 | PERCENTDAMAGE: 25/30/35/40/45 | AOEDAMAGEMULT: 0.8 | MONSTEREXECUTEMAX: 1200 | AOERADIUS: 400",
+          "tooltip": "暴走萝莉 施放 R 技能对目标区域或敌人造成战术影响。",
+          "maxrank": 3,
+          "cooldown": [
+            120,
+            100,
+            80
+          ],
+          "cooldownBurn": "120/100/80",
+          "cost": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "costBurn": "50/60/70/80/90",
+          "costType": "法力",
+          "effectBurn": [
+            "",
+            "100/150/200/250/300"
+          ],
+          "vars": [],
+          "image": {
+            "full": "JinxR.png",
+            "sprite": "spell0.png",
+            "group": "spell",
+            "x": 144,
+            "y": 0,
+            "w": 48,
+            "h": 48
+          }
+        }
+      ],
+      "allytips": [
+        "熟练掌握 暴走萝莉 的技能连招顺序与换血节奏。",
+        "在优势时积极游走支援边路，扩大团队经济优势。"
+      ],
+      "enemytips": [
+        "注意在对线期规避 暴走萝莉 的核心控制与爆发技能。",
+        "保持安全距离，在其关键技能进入冷却期间组织反击。"
+      ]
+    }
+  }
+}

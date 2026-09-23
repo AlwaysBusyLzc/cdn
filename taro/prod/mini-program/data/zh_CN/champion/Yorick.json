@@ -1,0 +1,233 @@
+{
+  "type": "champion",
+  "format": "standAloneComplex",
+  "version": "16.18.1",
+  "data": {
+    "Yorick": {
+      "id": "Yorick",
+      "key": "163",
+      "name": "牧魂人",
+      "title": "约里克",
+      "blurb": "牧魂人 约里克，峡谷经典竞技英雄，擅长于TOP作战。",
+      "info": {
+        "attack": 6,
+        "defense": 5,
+        "magic": 5,
+        "difficulty": 5
+      },
+      "image": {
+        "full": "Yorick.png",
+        "sprite": "champion0.png",
+        "group": "champion",
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      },
+      "tags": [
+        "Fighter",
+        "Tank"
+      ],
+      "partype": "法力",
+      "lanes": [
+        "TOP"
+      ],
+      "stats": {
+        "hp": 600,
+        "hpperlevel": 100,
+        "mp": 350,
+        "mpperlevel": 30,
+        "movespeed": 335,
+        "armor": 30,
+        "armorperlevel": 4.5,
+        "spellblock": 30,
+        "spellblockperlevel": 1.5,
+        "attackrange": 175,
+        "hpregen": 6,
+        "hpregenperlevel": 0.75,
+        "mpregen": 7,
+        "mpregenperlevel": 0.7,
+        "crit": 0,
+        "critperlevel": 0,
+        "attackdamage": 60,
+        "attackdamageperlevel": 3.5,
+        "attackspeedperlevel": 2.5,
+        "attackspeed": 0.658
+      },
+      "lore": "牧魂人 约里克，峡谷经典竞技英雄，擅长于TOP作战。",
+      "passive": {
+        "name": "固有被动能力",
+        "description": "牧魂人 拥有专属被动战斗机制。",
+        "image": {
+          "full": "Yorick_P.png",
+          "sprite": "passive0.png",
+          "group": "passive",
+          "x": 0,
+          "y": 0,
+          "w": 48,
+          "h": 48
+        }
+      },
+      "spells": [
+        {
+          "id": "YorickQ",
+          "name": "Q 技能",
+          "description": "BONUSDAMAGE: 30/50/70/90/110 (+50% AD) | CHERRYGHOULPASSIVESPAWNRATE: 8 | BASEDAMAGE: 30/50/70/90/110 | MISSINGHEALTHRATIO: 6/7/8/9/10 | BUFFDURATION: 5 | HEALREDUCTION: 50 | BONUSDAMAGEAD: 0.5",
+          "tooltip": "牧魂人 施放 Q 技能对目标区域或敌人造成战术影响。",
+          "maxrank": 5,
+          "cooldown": [
+            12,
+            10,
+            8,
+            6,
+            4
+          ],
+          "cooldownBurn": "12/10/8/6/4",
+          "cost": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "costBurn": "50/60/70/80/90",
+          "costType": "法力",
+          "effectBurn": [
+            "",
+            "100/150/200/250/300"
+          ],
+          "vars": [],
+          "image": {
+            "full": "YorickQ.png",
+            "sprite": "spell0.png",
+            "group": "spell",
+            "x": 0,
+            "y": 0,
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "id": "YorickW",
+          "name": "W 技能",
+          "description": "CIRCLEDURATION: 4 | GHOULNUMBER: 18 | DELAY: 0.75 | HPBONUS: 0/0/1/1/2 | WALLHEALTHTOOLTIP: 2/2/3/3/4",
+          "tooltip": "牧魂人 施放 W 技能对目标区域或敌人造成战术影响。",
+          "maxrank": 5,
+          "cooldown": [
+            12,
+            10,
+            8,
+            6,
+            4
+          ],
+          "cooldownBurn": "12/10/8/6/4",
+          "cost": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "costBurn": "50/60/70/80/90",
+          "costType": "法力",
+          "effectBurn": [
+            "",
+            "100/150/200/250/300"
+          ],
+          "vars": [],
+          "image": {
+            "full": "YorickW.png",
+            "sprite": "spell0.png",
+            "group": "spell",
+            "x": 48,
+            "y": 0,
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "id": "YorickE",
+          "name": "E 技能",
+          "description": "CALC_MINIMUMDAMAGE: 70/105/140/175/210 (+100% AP) | CALC_HEALTHDAMAGE: 6/6.5/7/7.5/8 (+3% AP) | CALC_SLOW: 0.3 | CALC_MONSTERCAPDAMAGE: 50/75/100/125/150 (+100% AP) | SLOWAMOUNT: 0.3 | SLOWDURATION: 1.5 | MARKDURATION: 4 | MARKRANGE: 1500 | HEALTHDAMAGE: 6/6.5/7/7.5/8 | HEALTHAPRATIO: 0.03 | MINIMUMMINIONDAMAGE: 70/105/140/175/210 | MONSTERMAXDAMAGE: 50/75/100/125/150 | ARMORSHRED: 0.13/0.16/0.19/0.22/0.25 | HASTEAMOUNT: 0.18/0.21/0.24/0.27/0.3",
+          "tooltip": "牧魂人 施放 E 技能对目标区域或敌人造成战术影响。",
+          "maxrank": 5,
+          "cooldown": [
+            12,
+            10,
+            8,
+            6,
+            4
+          ],
+          "cooldownBurn": "12/10/8/6/4",
+          "cost": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "costBurn": "50/60/70/80/90",
+          "costType": "法力",
+          "effectBurn": [
+            "",
+            "100/150/200/250/300"
+          ],
+          "vars": [],
+          "image": {
+            "full": "YorickE.png",
+            "sprite": "spell0.png",
+            "group": "spell",
+            "x": 96,
+            "y": 0,
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "id": "YorickR",
+          "name": "R 技能",
+          "description": "YORICKBIGGHOULHEALTH: (+60% AP) | YORICKBIGGHOULDAMAGE: 50/75/100/125/150 (+30% AD) | RGHOULNUMBERS: 2/3/4/5/6 | RBIGGHOULBONUSAD: 50/75/100/125/150 | RMARKDAMAGEPERCENT: 2/2.5/3/3.5/4 | RMARKMAXDAMAGE: 30 | RRADIUS: 700 | RSUMMONDELAY: 1 | RCONTROLTIME: 25000 | MINIONDAMAGETAKENMODIFIER: 0.3 | MAIDENHEALTHRATIO: 0.6 | MAIDENADRATIO: 0.3",
+          "tooltip": "牧魂人 施放 R 技能对目标区域或敌人造成战术影响。",
+          "maxrank": 3,
+          "cooldown": [
+            120,
+            100,
+            80
+          ],
+          "cooldownBurn": "120/100/80",
+          "cost": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "costBurn": "50/60/70/80/90",
+          "costType": "法力",
+          "effectBurn": [
+            "",
+            "100/150/200/250/300"
+          ],
+          "vars": [],
+          "image": {
+            "full": "YorickR.png",
+            "sprite": "spell0.png",
+            "group": "spell",
+            "x": 144,
+            "y": 0,
+            "w": 48,
+            "h": 48
+          }
+        }
+      ],
+      "allytips": [
+        "熟练掌握 牧魂人 的技能连招顺序与换血节奏。",
+        "在优势时积极游走支援边路，扩大团队经济优势。"
+      ],
+      "enemytips": [
+        "注意在对线期规避 牧魂人 的核心控制与爆发技能。",
+        "保持安全距离，在其关键技能进入冷却期间组织反击。"
+      ]
+    }
+  }
+}
