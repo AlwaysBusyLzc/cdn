@@ -2,10 +2,16 @@
     "version": "16.18.1",
     "configVersion": "2026.09.23",
     "appPlatform": "mini-program",
+    "zipPackage": {
+        "url": "assets.zip",
+        "size": 15356210,
+        "sizeMB": "14.64 MB",
+        "md5": "b45442c9523cc4ee340c96f0e14652cb"
+    },
     "totalChampions": 173,
     "totalItems": 575,
-    "updatedAt": "2026-09-23T13:13:16.425Z",
-    "updateLog": "1. 微信小程序 173 英雄全量数据与 575 件官方全模式装备完整同步\n2. 包含全部英雄高清圆形头像、技能/真实被动图标与全量装备高清图\n3. 全量英雄外号、克制知识库、技能公式与版本资讯免审热更包完整导出\n4. 支持全离线极速秒开与 CDN 动态分发",
+    "updatedAt": "2026-09-23T13:37:43.989Z",
+    "updateLog": "1. 支持 assets.zip 单文件极速上传与微信端秒级解压\n2. 微信小程序 173 英雄全量数据与 575 件官方全模式装备完整同步\n3. 包含全部英雄高清圆形头像、技能/真实被动图标与全量装备高清图\n4. 全量英雄外号、克制知识库、技能公式与版本资讯免审热更包完整导出\n5. 支持全离线极速秒开与 CDN 动态分发",
     "configs": {
         "champion_nicknames": "champion_nicknames.json",
         "champion_counters": "champion_counters.json",
